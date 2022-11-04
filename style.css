@@ -1,0 +1,56 @@
+.navbar{
+    background-color: #2F2C3A;
+    overflow: hidden;
+}
+.navbar ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2F2C3A;
+  position: sticky;
+}
+.navbar a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar .logo{
+    display: inline-flex;
+    padding-left: 2em;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.body{
+    display: flexbox;
+    
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .parallax {
+    background-image: url("../abductedmonkeys/docs/assets/AbductedMonkeysLogo-pinkgrimace.png") ;
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body, html {
+    height: 100%;
+  }
+@media screen and (max-width: 600px) {
+    .navbar li.right, 
+    .navbar li {float: none;}
+  }
+  
