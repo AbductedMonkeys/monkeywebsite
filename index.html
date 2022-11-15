@@ -12,9 +12,9 @@
 <body>
     <!--top bar content-->
     
-    <div class = "navbar">
+    <div class = "navbar" id = "navbar">
         <div class = "logo">
-            <a herf = "">inserimghere</a>
+            <a class = "logo" herf = ""><img class = "logo" src="../monkeywebsite/docs/assets/Monkey_thin.png"></a>
         </div>    
     <a href="">News</a>
     <a href="">About</a>
@@ -23,8 +23,13 @@
     </div>
     <!-- body content start -->
     <div class = "body">
-        <div class="parallax"></div>
-        <h1>Welcome ot the abducted moneys homepage!</h1> 
+      <div class="parallax"></div>
+        <h1>ABOUT</h1>
+        <p>Abuducted Monkeys is an indue studio based in Philadelphia, PA.</p>
+        <p>Currently we are working on <a class="TiTTLink">Trouble in Tornado Town</a>, a third person puzzle action game where you play as a tornado and try to destroy as much of of the landscape as possible, as quickly as possible!</p> 
+        
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
@@ -35,24 +40,26 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptatum vel, at ex architecto aut sapiente quae animi, nobis, dolorem inventore? Quo perspiciatis accusamus placeat sed, temporibus atque harum blanditiis?</p>
+        </div>
+        
     </div>
+   
 </body>
 <footer>
 
 </footer>
 <script>
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
     }
-    </script>
+  }
+  </script>
 </html>
