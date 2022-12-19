@@ -9,6 +9,7 @@
   padding: 22px 16px;
   text-decoration: none;
   font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar .logo{
   display: inline-flex;
@@ -28,6 +29,13 @@ h1{
   text-align: center;  
   color: #d8717b;
   font-size: 4em;
+}
+h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;  
+  color: #d8717b;
+  font-size: 2em;
 }
 p{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
