@@ -19,8 +19,7 @@
   padding: 0;
 }
 .body{
-  display: flexbox;
-  
+
   
 }
 h1{
@@ -29,6 +28,7 @@ h1{
   text-align: center;  
   color: #d8717b;
   font-size: 4em;
+  margin-top: 1em;
 }
 h2{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,6 +36,10 @@ h2{
   text-align: center;  
   color: #d8717b;
   font-size: 2em;
+}
+iframe{
+  display: block;
+  margin: 0 auto;
 }
 p{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -67,6 +71,50 @@ p{
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.parallaxTorando1 {
+  background-image: url("../monkeywebsite/docs/assets/image_002_0020.png") ;
+
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxTorando2 {
+  background-image: url("../monkeywebsite/docs/assets/image_002_0100.png") ;
+
+  min-height: 400px;
+  
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxTorando3 {
+  background-image: url("../monkeywebsite/docs/assets/image_017_0020.png") ;
+
+  min-height: 400px;
+  
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  
+}
+.socialsImg{
+  max-width: 100px;
+  display:flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.socialsImg img{
+  max-width: 100px;
+  padding: 10px;
 }
 body, html {
   height: 100%;
