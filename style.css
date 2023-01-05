@@ -37,6 +37,14 @@ h2{
   color: #d8717b;
   font-size: 2em;
 }
+li{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;  
+  list-style-type: none;
+  color: #d8717b;
+  font-size: 2em;
+}
 iframe{
   display: block;
   margin: 0 auto;
@@ -62,8 +70,27 @@ p{
   top:0;
   width: 100%;
 }
+.namesTeam{
+  float: left;
+  display: flex;
+  box-sizing: inherit;
+  width: 50%;
+  justify-content: center;
+}
+
+.peopleList{
+  display: flex;
+  margin-left: 5%;
+}
+.namesMent{
+  float: right;
+  display: flex;
+  box-sizing: inherit;
+  justify-content: center;
+  width: 50%;
+}
 .parallax {
-  background-image: url("../monkeywebsite/docs/assets/AbductedMonkeysLogo-paralax.png") ;
+  background-image: url("../monkeywebsite/docs/assets/AbductedMonkeysLogo10_Jordan-02.png") ;
 
   min-height: 900px;
   
@@ -98,13 +125,11 @@ p{
   min-height: 400px;
   
   background-attachment: fixed;
-  background-position: top;
+  background-position-y: 100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-footer{
-  
-}
+
 .socialsImg{
   max-width: 100px;
   display:flex;
