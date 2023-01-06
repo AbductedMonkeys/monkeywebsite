@@ -8,18 +8,29 @@
   <meta name="author" content="Abducted Monkeys, Matt Miholics">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <link rel="icon" href="../docs/assets/AbductedMonkeysLogo-pinkgrimace.png">
+  <link rel="icon" href="./docs/assets/AbductedMonkeysLogo-pinkgrimace.png">
 </head>
 <body>
     <!--top bar content-->
     
     <div class = "navbar" id = "navbar">
-      <div class = "logo">
-          <a href = "./index.html" class = "logo" ><img class = "logo" src="../docs/assets/Monkey_thin.png"></a>
+      <div class = "active" class = "logo">
+          <a href = "./index.html" class = "logo" ><img class = "logo" src="./docs/assets/Monkey_thin.png"></a>
       </div>    
-      <a href="./tornadotown.html">Trouble in Tornado Town</a>
-      <a href="./index.html">About us</a>
+    <div id = "navList" class="navMenu">
+      <div class = "menuItem">
+        <a href="./tornadotown.html">Trouble in Tornado Town</a>
+      </div>
+      <div class = "menuItem">
+        <a href="./index.html">About us</a>
+      </div>
     </div>
+  <div id = "navToggle" class="menuIcon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  </div>
 
     <!-- body content start -->
     <div class = "body">
@@ -32,8 +43,10 @@
         <br>
         <br>
 
-        <iframe src="https://store.steampowered.com/widget/2180060/" frameborder="0" width="1000" height="200"></iframe>
-
+        <iframe class="steamWidget" src="https://store.steampowered.com/widget/2180060/" frameborder="0" width="1000" height="200" ></iframe>
+        <div class="steamLink">
+          <a href = "https://store.steampowered.com/app/2180060/Trouble_in_Tornado_Town/">BUY NOW ON STEAM</a>
+        </div>
         <br>
         <br>
       </div>
@@ -55,17 +68,9 @@
   </div>
 </footer>
 <script>
-  window.onscroll = function() {myFunction()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
+  var tglbtn = document.getElementById("navToggle");
+  var navlst = document.getElementById("navList")
+
+  tglbtn.addEventListener('click', () => {navlst.classList.toggle("active");});
   </script>
 </html>

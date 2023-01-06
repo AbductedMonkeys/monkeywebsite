@@ -1,6 +1,13 @@
 .navbar{
-  background-color: #2F2C3A;
-  overflow: hidden;
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   z-index: 99;
+   background-color: #2f2c3a;
+   padding: 10px 5%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 .navbar a{
   float: right;
@@ -12,12 +19,57 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar .logo{
-  display: inline-flex;
+  display: block;
   float: left;
   max-height: 80px;
   max-width: 200px;
   padding: 0;
 }
+.navbar .icon {
+  display: none;
+}
+.navbar a:hover {
+  background-color: #d8717b;
+  color: #2f2c3a;
+}
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.sticky{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+.navMenu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  
+}
+.menuIcon {
+  display: none;
+}
+.bar {
+  width: 20px;
+  height: 3px;
+  background-color: #d8717b;
+  margin: 4px auto;
+}
+.navMenu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.menuItem {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
 .body{
 
   
@@ -49,27 +101,25 @@ iframe{
   display: block;
   margin: 0 auto;
 }
+.steamLink{
+  display: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  justify-items: center;
+  margin: 5%;
+  color: #d8717b;
+}
 p{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2em;
   text-align: center;
   justify-items: center;
   margin: 5%;
-  color: #d8717b;;
+  color: #d8717b;
 }
-.navbar a:hover {
-  background-color: #d8717b;
-  color: #2f2c3a;
-}
-.navbar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-.sticky{
-  position: fixed;
-  top:0;
-  width: 100%;
-}
+
+
 .namesTeam{
   float: left;
   display: flex;
@@ -89,10 +139,12 @@ p{
   justify-content: center;
   width: 50%;
 }
-.parallax {
-  background-image: url("../docs/assets/AbductedMonkeysLogo10_Jordan-02.png") ;
 
-  min-height: 900px;
+
+.parallax {
+  background-image: url("./docs/assets/AbductedMonkeysLogo10_Jordan-02.png") ;
+
+  min-height: 700px;
   
   background-attachment: fixed;
   background-position: top;
@@ -100,7 +152,7 @@ p{
   background-size: cover;
 }
 .parallaxTorando1 {
-  background-image: url("../docs/assets/image_002_0020.png") ;
+  background-image: url("./docs/assets/image_002_0020.png") ;
 
   min-height: 400px;
 
@@ -110,7 +162,7 @@ p{
   background-size: cover;
 }
 .parallaxTorando2 {
-  background-image: url("../docs/assets/image_002_0100.png") ;
+  background-image: url("./docs/assets/image_002_0100.png") ;
 
   min-height: 400px;
   
@@ -120,7 +172,7 @@ p{
   background-size: cover;
 }
 .parallaxTorando3 {
-  background-image: url("../docs/assets/image_017_0020.png") ;
+  background-image: url("./docs/assets/image_017_0020.png") ;
 
   min-height: 400px;
   
@@ -146,7 +198,57 @@ body, html {
   margin: 0%;
   background-color: #2F2C3A;
 }
+
 @media screen and (max-width: 600px) {
-  .navbar li.right, 
-  .navbar li {float: none;}
+  .navbar {
+    flex-direction: column;
+  }
+
+.logo {
+    width: 100%;
+}
+
+.navMenu {
+    width: 100%;
+    display: none;
+    width: 100%;
+}
+.steamWidget{
+  display: none;
+}
+.steamLink{
+  display: block;
+
+}
+iframe{
+  height: 200px;
+  width: 320px;
+}
+.menuItem {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    text-align: end;
+}
+
+.active {
+  display: block;
+}
+.parallax{
+  height: fit-content;
+  min-height: 200px;
+  background-size: contain;
+  background-position-y: 20%;
+}
+
+.menuIcon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+.menuIcon:hover .bar {
+    background-color: #d8717b;
+}
 }
