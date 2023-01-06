@@ -90,7 +90,7 @@ p{
   width: 50%;
 }
 .parallax {
-  background-image: url("../monkeywebsite/docs/assets/AbductedMonkeysLogo10_Jordan-02.png") ;
+  background-image: url("../docs/assets/AbductedMonkeysLogo10_Jordan-02.png") ;
 
   min-height: 900px;
   
@@ -100,7 +100,7 @@ p{
   background-size: cover;
 }
 .parallaxTorando1 {
-  background-image: url("../monkeywebsite/docs/assets/image_002_0020.png") ;
+  background-image: url("../docs/assets/image_002_0020.png") ;
 
   min-height: 400px;
 
@@ -110,7 +110,7 @@ p{
   background-size: cover;
 }
 .parallaxTorando2 {
-  background-image: url("../monkeywebsite/docs/assets/image_002_0100.png") ;
+  background-image: url("../docs/assets/image_002_0100.png") ;
 
   min-height: 400px;
   
@@ -120,7 +120,7 @@ p{
   background-size: cover;
 }
 .parallaxTorando3 {
-  background-image: url("../monkeywebsite/docs/assets/image_017_0020.png") ;
+  background-image: url("../docs/assets/image_017_0020.png") ;
 
   min-height: 400px;
   
