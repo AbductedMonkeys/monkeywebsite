@@ -231,7 +231,12 @@ iframe{
     padding: 5px 0;
     text-align: end;
 }
-
+p{
+  font-size: 1.5em;
+}
+h1{
+  font-size: 2em;
+}
 .active {
   display: block;
 }
