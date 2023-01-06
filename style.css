@@ -241,7 +241,7 @@ body, html {
 }
 .steamLink{
   display: block;
-
+  text-align: center;
 }
 iframe{
   height: 200px;
