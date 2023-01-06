@@ -80,6 +80,7 @@ h1{
   color: #d8717b;
   font-size: 4em;
   margin-top: 1em;
+  padding: 5%;
 }
 h2{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -114,7 +115,7 @@ iframe{
 p{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   justify-items: center;
   margin: 5%;
   color: #d8717b;
@@ -182,7 +183,24 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.contactImgs
+{
+  max-width: 100px;
+  display:flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.contactImgs img{
+  max-width: 100px;
+  padding: 10px;
+}
+.contactLinks p{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2px;
+}
 .socialsImg{
   max-width: 100px;
   display:flex;
@@ -239,6 +257,17 @@ h1{
 }
 .active {
   display: block;
+}
+.peopleList{
+  display: grid;
+}
+.namesMent{
+  justify-content: left;
+  width: auto;
+}
+.namesTeam{
+  justify-content:left;
+  width: auto;
 }
 .parallax{
   height: fit-content;
