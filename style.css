@@ -283,8 +283,18 @@ h1{
 .parallax{
   height: fit-content;
   min-height: 200px;
+  background-attachment: scroll;
   background-size: contain;
   background-position-y: 20%;
+}
+.parallaxTorando1{
+  background-attachment: scroll;
+}
+.parallaxTorando2{
+  background-attachment: scroll;
+}
+.parallaxTorando3{
+  background-attachment: scroll;
 }
 
 .menuIcon {
