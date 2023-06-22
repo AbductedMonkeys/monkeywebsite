@@ -1,6 +1,9 @@
 @font-face { font-family: Montserrat; src: url('./Montserrat/static/Montserrat-Regular.ttf'); } 
 @font-face { font-family: Montserrat; font-weight: bold; src: url('./Montserrat/static/Montserrat-Bold.ttf');}
-.navbar{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .navbar{
    position: sticky;
    position: -webkit-sticky;
    top: 0;
@@ -90,16 +93,16 @@ h2{
   text-align: center;  
   color: #d8717b;
   font-size: 2em;
-}
-li{
+} */
+/* li{
   font-family:'Montserrat', sans-serif;
   justify-content: center;
   text-align: center;  
   list-style-type: none;
   color: #d8717b;
   font-size: 2em;
-}
-iframe{
+} */
+/* iframe{
   display: block;
   margin: 0 auto;
 }
@@ -229,9 +232,9 @@ body, html {
   height: 100%;
   margin: 0%;
   background-color: #2F2C3A;
-}
+} */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .navbar {
     flex-direction: column;
   }
@@ -309,4 +312,4 @@ h1{
 .menuIcon:hover .bar {
     background-color: #d8717b;
 }
-}
+} */

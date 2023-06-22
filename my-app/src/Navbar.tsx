@@ -1,29 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import monkeyTrans from './Monkey_trans.png';
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
+
 
 function Navbar() {
+  let Links =[
+    {name:"Home",link:"/"},
+    {name:"About",link:"/#about"},
+    {name:"Tornado Town",link:"/#TiTT"},
+    {name:"Contact",link:"/#contact"},
+  ];
+
+  let [open,setOpen]=useState(false);
+  
+  let button;
+    if (open) {
+      button = <AiOutlineClose className='text-mPink hover:text-mTan'/>;
+    } else {
+      button = <AiOutlineMenu className='text-mPink hover:text-mTan'/>;
+    }
+
   return (
-    <div className = "navbar" id = "navbar">
-        <div className = "active">
-            <a href = "./index.html" className = "logo" ><img className = "logo" src={monkeyTrans} /></a>
-        </div>    
-      <div id = "navList" className="navMenu">
-        <div className = "menuItem">
-          <a href="./tornadotown.html">Trouble in Tornado Town</a>
+  <>
+  <div className='shadow-md w-full bg-grimace fixed top-0 left-0'>
+      <div className='md:flex items-center justify-between py-4 md:px-10 px-7'>
+      <img src={monkeyTrans} className='cursor-pointer flex items-center object-contain  h-14 md:h-20'/>
+      
+      <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-4 top-6 cursor-pointer md:hidden'>
+        {button}
         </div>
-        <div className = "menuItem">
-          <a href="./index.html">About us</a>
-        </div>
-      </div>
-    <div id = "navToggle" className="menuIcon">
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
+
+      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-grimace md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-16 ':'top-[-490px]'}`}>
+        {
+          Links.map((link)=>(
+            <li key={link.name} onClick={() =>setOpen(!open)} className='md:ml-8 text-3xl md:my-0 my-7'>
+              <p onClick={() => window.location.replace(link.link)} className='text-mPink hover:text-mTan duration-500'>{link.name}</p>
+            </li>
+          ))
+        }
+      </ul>
+
     </div>
-    </div>
-   
-  );
+  </div>
+  </>
+);
+
 }
 
 export default Navbar;
