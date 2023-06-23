@@ -6,7 +6,6 @@ import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 
 function Navbar() {
   let Links =[
-    {name:"Home",link:"/"},
     {name:"About",link:"/#about"},
     {name:"Tornado Town",link:"/#TiTT"},
     {name:"Contact",link:"/#contact"},

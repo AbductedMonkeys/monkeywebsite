@@ -10,6 +10,7 @@ module.exports = {
       'grimace':'#2f2c3a',
       'mTan':'#d8c0c6',
       'mPink':'#d8717b',
+      'mLink' : '#ffb2b7',
     },
   },
   plugins: [],

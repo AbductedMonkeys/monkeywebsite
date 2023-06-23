@@ -14,24 +14,24 @@ function App() {
           <h1 className="font-bold center text-6xl md:text-8xl">ABOUT</h1>
           <p className="py-5">Abducted Monkeys is a small team of students developing our indie action game Trouble in Tornado Town. We strive to develop compact, enjoyable experiences for players of all skill levels.</p>
           <p className="py-5">All of our developers are currently studying Game Design and Production at Drexel University. Trouble in Tornado Town was developed during the 3rd year of our studies and we owe a great deal of gratitude to our professors at Drexel's Entrepreneurial Game Studio for their advice and industry know-how.</p>
-          <div className="">
-            <div className="py-2  justify-center">
-                <h2 className="py-2 font-bold">Abducted Monkeys is:</h2>
-                <p className="py-2">Spencer Cohen</p>
-                <p className="py-2">Joshua Pelkington</p>
-                <p className="py-2">Tom Giagtzoglou</p>
-                <p className="py-2">Joi Saito</p>
-                <p className="py-2">Dan Guadalupe</p>
-                <p className="py-2">Brian Glogower</p>
-                <p className="py-2">Jordan Gerhardt</p>
-                <p className="py-2">Matt Miholics</p>
-                <p className="py-2">Alex Jasmin</p>
+          <div className="items-center my-3">
+            <div className="py-2">
+                <h2 className="py-2  font-bold">Abducted Monkeys is:</h2>
+                <a href = "https://www.linkedin.com/in/spenceradamcohen/" className="py-5 justify-center md:px-4 flex text-mLink hover:text-mTan underline md:no-underline">Spencer Cohen</a>
+                <a href = "http://joshuapelican.github.io/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline">Joshua Pelkington</a>
+                <a href = "https://tomgia.com/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline">Tom Giagtzoglou</a>
+                <a href = "https://www.artstation.com/joyful2051" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Joi Saito</a>
+                <a href = "https://www.artstation.com/danguad" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Dan Guadalupe</a>
+                <a href = "https://www.linkedin.com/in/brian-glogower/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Brian Glogower</a>
+                <a href = "https://www.linkedin.com/in/jordan-gerhardt-91a5141a2/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Jordan Gerhardt</a>
+                <a href = "https://www.artstation.com/miholicsmatt" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Matt Miholics</a>
+                <a href = "https://www.artstation.com/alexgjasmin" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Alex Jasmin</a>
             </div>
 
             <div className="py-5">
                 <h2 className="py-2 font-bold ">Mentored by:</h2>
-                <p className="py-2">Tony Rowe</p>
-                <p className="py-2">Frank Lee</p>
+                <p className="py-5 justify-center flex md:px-4 text-mLink">Tony Rowe</p>
+                <p className="py-5 justify-center flex md:px-4 text-mLink">Frank Lee</p>
             </div>
           </div>
         </div>
