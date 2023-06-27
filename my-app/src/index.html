@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Abducted Monkeys - Home</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Abducted Monkeys LLC">
+  <meta name="keywords" content="Abuducted, Monkeys, Abducted Monkeys, Abducted Monkeys LLC, Tornado, Trouble, Trouble in Torndo Town, Tornado Town">
+  <meta name="author" content="Abducted Monkeys, Matt Miholics">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./docs/assets/AbductedMonkeysLogo-pinkgrimace.png">
+</head>
+<body>
+    <!--top bar content-->
+    
+    <div class = "navbar" id = "navbar">
+        <div class = "active" class = "logo">
+            <a href = "./index.html" class = "logo" ><img class = "logo" src="./docs/assets/Monkey_thin.png"></a>
+        </div>    
+      <div id = "navList" class="navMenu">
+        <div class = "menuItem">
+          <a href="./tornadotown.html">Trouble in Tornado Town</a>
+        </div>
+        <div class = "menuItem">
+          <a href="./index.html">About us</a>
+        </div>
+      </div>
+    <div id = "navToggle" class="menuIcon">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    </div>
+
+    <!-- body content start -->
+    <div class = "body">
+        <h1>ABOUT</h1>
+        
+        <p>Abducted Monkeys is a small team of students developing our indie action game <a class="TiTTLink" href="./tornadotown.html">Trouble in Tornado Town</a>. We strive to develop compact, enjoyable experiences for players of all skill levels.</p> 
+        <p>All of our developers are currently studying Game Design and Production at Drexel University. Trouble in Tornado Town was developed during the 3rd year of our studies and we owe a great deal of gratitude to our professors at Drexel's Entrepreneurial Game Studio for their advice and industry know-how.</p>
+        <div class="peopleList">
+          <div class = "namesTeam">
+            <p>
+              Abducted Monkeys is:<br></p>
+              <a href = "https://www.linkedin.com/in/spenceradamcohen/">Spencer Cohen</a><br>
+              <a href = "http://joshuapelican.github.io/">Joshua Pelkington</a><br>
+              <a href = "https://tomgia.com/">Tom Giagtzoglou</a><br>
+              <a href = "https://www.artstation.com/joyful2051">Joi Saito</a><br>
+              <a href = "https://www.artstation.com/danguad">Dan Guadalupe</a><br>
+              <a href = "https://www.linkedin.com/in/brian-glogower/">Brian Glogower</a><br>
+              <a href = "https://www.linkedin.com/in/jordan-gerhardt-91a5141a2/">Jordan Gerhardt</a><br>
+              <a href = "https://www.artstation.com/miholicsmatt">Matt Miholics</a><br>
+              <a href = "https://www.artstation.com/alexgjasmin">Alex Jasmin</a><br>
+          </div>
+          
+          <div class = "namesMent">
+            <p>
+              Mentored by:<br><br>
+              Tony Rowe<br>
+              Frank Lee<br>
+            </p>
+        </div>
+      </div>
+   
+    </div>
+   
+</body>
+<footer>
+  <div class = "socialsLinks"></div>
+  <h2>Follow us:</h2>
+  <div class = "socialsImg">
+    <a href = "https://www.tiktok.com/@abductedmonkeys"><img src = "./docs/assets/tiktokGrimace.png"></a>
+    <a href = "https://twitter.com/abduct3dmonkeys?lang=en"><img src = "./docs/assets/twitterGrimace.png"></a>
+    <a href = "https://www.youtube.com/@AbductedMonkeys" target="_blank"><img src = "./docs/assets/youtubeGrimace.png"></a>
+  </div>
+  <div class = "contactLinks">
+    <h2>Contact us:</h2>
+    <p>contact[at]abductedmonkeys.com</p>
+    <div class="contactImgs">
+      <a href = "https://www.linkedin.com/company/abductedmonkeys/"><img src = "./docs/assets/linkedinGrimace.png"></a>
+      
+    </div>
+    
+  </div>
+</footer>
+<script>
+  var tglbtn = document.getElementById("navToggle");
+  var navlst = document.getElementById("navList")
+
+  tglbtn.addEventListener('click', () => {navlst.classList.toggle("active");});
+  </script>
+</html>
