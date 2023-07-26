@@ -10,8 +10,8 @@ function App() {
   return (
   <> 
   <Navbar />
-    <div className=" bg-mTan h-full w-full top-40 pt-20 pb-5 px-2">
-    <div id="TiTT"className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-10 px-4">
+    <div className=" bg-mTan h-full w-full top-40 pt-20 pb-6 px-6">
+    <div id="TiTT"className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-16 px-4">
           <h1 id="about" className="font-bold text-center text-5xl md:text-8xl">TROUBLE IN TORNADO TOWN</h1>
           <h2 className="py-5  text-center font-bold">Release Trailer:</h2>
           <iframe className='container mx-auto grow w-11/12 aspect-video self-center md:min-w-max' src="https://www.youtube.com/embed/yYihLYcPJls" title="Trouble in Tornado Town  - Release Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
@@ -34,15 +34,15 @@ function App() {
           <div className="items-center my-3">
             <div className="py-2">
                 <h2 className="py-2 text-center font-bold">Abducted Monkeys is:</h2>
-                <a href = "https://www.linkedin.com/in/spenceradamcohen/" className="py-5 justify-center md:px-4 flex text-mLink hover:text-mTan underline md:no-underline">Spencer Cohen</a>
-                <a href = "http://joshuapelican.github.io/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline">Joshua Pelkington</a>
-                <a href = "https://tomgia.com/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline">Tom Giagtzoglou</a>
-                <a href = "https://www.artstation.com/joyful2051" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Joi Saito</a>
-                <a href = "https://www.artstation.com/danguad" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Dan Guadalupe</a>
-                <a href = "https://www.linkedin.com/in/brian-glogower/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Brian Glogower</a>
-                <a href = "https://www.linkedin.com/in/jordan-gerhardt-91a5141a2/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Jordan Gerhardt</a>
-                <a href = "https://www.artstation.com/miholicsmatt" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Matt Miholics</a>
-                <a href = "https://www.artstation.com/alexgjasmin" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline">Alex Jasmin</a>
+                <a href = "https://www.linkedin.com/in/spenceradamcohen/" className="py-5 justify-center md:px-4 flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Spencer Cohen</a>
+                <a href = "http://joshuapelican.github.io/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Joshua Pelkington</a>
+                <a href = "https://tomgia.com/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Tom Giagtzoglou</a>
+                <a href = "https://www.artstation.com/joyful2051" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Joi Saito</a>
+                <a href = "https://www.artstation.com/danguad" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Dan Guadalupe</a>
+                <a href = "https://www.linkedin.com/in/brian-glogower/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Brian Glogower</a>
+                <a href = "https://www.linkedin.com/in/jordan-gerhardt-91a5141a2/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Jordan Gerhardt</a>
+                <a href = "https://www.artstation.com/miholicsmatt" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Matt Miholics</a>
+                <a href = "https://www.artstation.com/alexgjasmin" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Alex Jasmin</a>
             </div>
 
             <div className="py-5">
@@ -56,9 +56,11 @@ function App() {
         <div id="contact"className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-10 px-4 items-center text-center">
           <h1 id="about" className="font-bold text-5xl md:text-8xl">CONTACT US</h1>
           <h2 className="py-5 font-bold">You can contact us via Email or on Linkedin</h2>
-          <div className="items-center">
-            <p className="py-5 text-lg md:text-3xl">contact[at]abductedmonkeys.com</p>
-            <AiFillLinkedin className=' mx-auto text-5xl'/>
+          <div className="items-center inline-flex">
+            <p className="py-5 px-5 text-lg md:text-3xl justify-self-start">contact[at]abductedmonkeys.com</p>
+            <a href='https://www.linkedin.com/company/abductedmonkeys/' className='py-5 px-5'>
+              <AiFillLinkedin className='text-5xl'/>
+            </a>
           </div>
         </div>
     </div>

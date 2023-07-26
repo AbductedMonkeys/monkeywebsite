@@ -34,7 +34,7 @@ function Navbar() {
         {
           Links.map((link)=>(
             <li key={link.name} onClick={() =>setOpen(!open)} className='md:ml-8 text-3xl md:my-0 my-7'>
-              <p onClick={() => window.location.replace(link.link)} className='text-mPink hover:text-mTan duration-500'>{link.name}</p>
+              <p onClick={() => window.location.replace(link.link)} className='text-mPink hover:text-mTan cursor-pointer duration-500'>{link.name}</p>
             </li>
           ))
         }
