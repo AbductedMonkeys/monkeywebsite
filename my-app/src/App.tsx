@@ -56,8 +56,8 @@ function App() {
         <div id="contact"className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-10 px-4 items-center text-center">
           <h1 id="about" className="font-bold text-5xl md:text-8xl">CONTACT US</h1>
           <h2 className="py-5 font-bold">You can contact us via Email or on Linkedin</h2>
-          <div className="items-center inline-flex">
-            <p className="py-5 px-5 text-lg md:text-3xl justify-self-start">contact[at]abductedmonkeys.com</p>
+          <div className="items-center flex flex-col md:flex-row md:inline-flex">
+            <p className="py-5 px-5 text-base md:text-3xl">contact[at]abductedmonkeys.com</p>
             <a href='https://www.linkedin.com/company/abductedmonkeys/' className='py-5 px-5'>
               <AiFillLinkedin className='text-5xl'/>
             </a>
