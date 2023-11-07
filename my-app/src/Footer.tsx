@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import monkeyTrans from './Monkey_trans.png';
-import {AiOutlineTwitter, AiFillYoutube} from 'react-icons/ai';
+import {AiFillYoutube} from 'react-icons/ai';
+import {FaSquareXTwitter} from 'react-icons/fa6';
 import {FaTiktok} from 'react-icons/fa'
 
 
@@ -17,8 +18,8 @@ function Footer() {
       </a>
     </div>
     <div className="mb-9 ">
-      <a href="https://www.tiktok.com/@abductedmonkeys" className=" flex mx-6 text-4xl hover:text-mTan text-mPink ">
-        <AiOutlineTwitter/>
+      <a href="https://twitter.com/Abduct3dMonkeys" className=" flex mx-6 text-4xl hover:text-mTan text-mPink ">
+        <FaSquareXTwitter/>
       </a>
     </div>
     <div className="mb-9  ">

@@ -11,8 +11,8 @@ function App() {
   <> 
   <Navbar />
     <div id="TiTT" className=" bg-mTan h-full w-full top-40 pt-20 pb-6 px-6">
-    <div className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-16 px-4">
-          <h1 className="font-bold text-center text-5xl md:text-8xl">TROUBLE IN TORNADO TOWN</h1>
+    <div className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-16 px-4">
+          <h1 className="font-bold text-center text-3xl md:text-8xl">TROUBLE IN TORNADO TOWN</h1>
           <h2 className="py-5  text-center font-bold">Release Trailer:</h2>
           <iframe className='container mx-auto grow w-11/12 aspect-video self-center md:min-w-max' src="https://www.youtube.com/embed/yYihLYcPJls" title="Trouble in Tornado Town  - Release Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
           <div className='py-5 block'><iframe className="h-48 overflow-hidden container mx-auto" src="https://store.steampowered.com/widget/2180060/" /></div>
@@ -27,8 +27,8 @@ function App() {
           <div id="about" ></div>
         </div>
         <div className='py-3' ></div>
-        <div  className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-10 px-4 text-center items-center">
-          <h1 className="font-bold text-center text-6xl md:text-8xl">ABOUT</h1>
+        <div  className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center">
+          <h1 className="font-bold text-center text-3xl md:text-8xl">ABOUT</h1>
           <img src ={threeMonkeys} className="py-4 inline-flex justify-center"/>
           <p className="py-5 px-5 text-left">Abducted Monkeys is a small team of students developing our indie action game Trouble in Tornado Town. We strive to develop compact, enjoyable experiences for players of all skill levels.</p>
           <p className="py-5 px-5 text-left">All of our developers are currently studying Game Design and Production at Drexel University. Trouble in Tornado Town was developed during the 3rd year of our studies and we owe a great deal of gratitude to our professors at Drexel's Entrepreneurial Game Studio for their advice and industry know-how.</p>
@@ -56,10 +56,10 @@ function App() {
         </div>
         <div className='py-3' ></div>
         <div className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-10 px-4 items-center text-center">
-          <h1 className="font-bold text-5xl md:text-8xl">CONTACT US</h1>
+          <h1 className="font-bold text-3xl md:text-8xl">CONTACT US</h1>
           <h2 className="py-5 font-bold">You can contact us via Email or on Linkedin</h2>
           <div className="items-center flex flex-col md:flex-row md:inline-flex">
-            <p className="py-5 px-5 text-base md:text-3xl">contact[at]abductedmonkeys.com</p>
+            <p className="py-5 px-5 text-base md:text-2xl">contact[at]abductedmonkeys.com</p>
             <a href='https://www.linkedin.com/company/abductedmonkeys/' className='py-5 px-5'>
               <AiFillLinkedin className='text-5xl hover:text-mTan'/>
             </a>
