@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
-import monkeyTrans from './Monkey_trans.png';
+import monkeyTrans from '../Monkey_trans.png'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 
 
 function Navbar() {
   let Links =[
     {name:"Trouble in Tornado Town",link:"/#TiTT"},
+    {name:"Lockjaw",link:"/lockjaw"},
     {name:"About",link:"/#about"},
     {name:"Contact",link:"/#contact"},
   ];

@@ -1,15 +1,12 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import './App.css';
 import {AiFillLinkedin} from 'react-icons/ai';
-import threeMonkeys from './threemonkeys.jpg';
+import threeMonkeys from '../threemonkeys.jpg';
 
 
 function App() {
   return (
-  <> 
-  <Navbar />
+  <>
     <div id="TiTT" className=" bg-mTan h-full w-full top-40 pt-20 pb-6 px-6">
     <div className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-16 px-4">
           <h1 className="font-bold text-center text-3xl md:text-8xl">TROUBLE IN TORNADO TOWN</h1>
@@ -66,7 +63,6 @@ function App() {
           </div>
         </div>
     </div>
-    <Footer />
   </>
 );
 }
