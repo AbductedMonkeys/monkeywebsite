@@ -11,6 +11,8 @@ module.exports = {
       'mTan':'#d8c0c6',
       'mPink':'#d8717b',
       'mLink' : '#ffb2b7',
+      'lOrange' : '#fda343',
+      'lGray' : '#151515',
     },
   },
   plugins: [],

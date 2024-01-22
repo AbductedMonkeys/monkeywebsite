@@ -4,13 +4,14 @@ import monkeyTrans from './Monkey_trans.png';
 import {AiFillYoutube} from 'react-icons/ai';
 import {FaSquareXTwitter} from 'react-icons/fa6';
 import {FaTiktok} from 'react-icons/fa'
+import { useLocation } from 'react-router';
 
 
 function Footer() {
-  
+  const homeURL = useLocation().pathname;
   return (
   <>
-  <footer className="bg-grimace pb-2 w-full">
+  <footer className={`${homeURL !== '/' ? "bg-lGray" : "bg-grimace"} pb-2 w-full`}>
   <div className="inline-flex mx-auto w-full justify-center pt-9">
     <div className="mb-9">
       <a href="https://www.tiktok.com/@abductedmonkeys" className=" flex mx-6 text-4xl hover:text-mTan text-mPink ">
@@ -30,7 +31,7 @@ function Footer() {
   </div>
 
   <div
-    className="p-4 text-center text-mPink bg-grimace">
+    className={`p-4 text-center text-mPink ${homeURL !== '/' ? "bg-lGray" : "bg-grimace"}`}>
     <p
       className="text-mPink "
       >Abducted Monkeys LLC</p>
