@@ -1,113 +1,71 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
+import threeMonkeys from "../../public/threemonkeys.jpg"
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <> 
+      <Navbar />
+      <div id="TiTT" className=" bg-mTan h-full w-full top-40 pt-20 pb-6 px-6">
+      <div className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-16 px-4">
+            <h1 className="font-bold text-center text-3xl md:text-8xl">TROUBLE IN TORNADO TOWN</h1>
+            <h2 className="py-5  text-center font-bold">Release Trailer:</h2>
+            <iframe className='container mx-auto grow w-11/12 aspect-video self-center md:min-w-max' src="https://www.youtube.com/embed/yYihLYcPJls" title="Trouble in Tornado Town  - Release Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+            <div className='py-5 block'><iframe className="h-48 overflow-hidden container mx-auto" src="https://store.steampowered.com/widget/2180060/" /></div>
+            <div className="">
+              <div className="py-2 justify-center">
+              <p className="py-5 px-5 ">Welcome to Tornado Town, a place so lovely youll be blown away! Trouble in Tornado town is a physics-driven cartoon destruction game where you grow into the most powerful tornado ever seen!</p>
+              </div>
+              <div className="py-5 px-5">
+              <p>Play as a tornado and try to destroy as much of of the landscape as possible, as quickly as possible!</p>
+              </div>
+            </div>
+            <div id="about" ></div>
+          </div>
+          <div className='py-3' ></div>
+          <div  className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center">
+            <h1 className="font-bold text-center text-3xl md:text-8xl">ABOUT</h1>
+            <Image alt="Abducted Monkeys Team" src ={threeMonkeys} className="py-4 inline-flex justify-center"/>
+            <p className="py-5 px-5 text-left">Abducted Monkeys is a small team of students developing our indie action game Trouble in Tornado Town. We strive to develop compact, enjoyable experiences for players of all skill levels.</p>
+            <p className="py-5 px-5 text-left">All of our developers are currently studying Game Design and Production at Drexel University. Trouble in Tornado Town was developed during the 3rd year of our studies and we owe a great deal of gratitude to our professors at Drexels Entrepreneurial Game Studio for their advice and industry know-how.</p>
+            <div className="items-center my-3">
+              <div className="py-2">
+                  <h2 className="py-2 text-center font-bold">Abducted Monkeys is:</h2>
+                  <a href = "https://www.linkedin.com/in/spenceradamcohen/" className="py-5 justify-center md:px-4 flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Spencer Cohen</a>
+                  <a href = "http://joshuapelican.github.io/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Joshua Pelkington</a>
+                  <a href = "https://tomgia.com/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Tom Giagtzoglou</a>
+                  <a href = "https://www.artstation.com/joyful2051" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Joi Saito</a>
+                  <a href = "https://www.artstation.com/danguad" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Dan Guadalupe</a>
+                  <a href = "https://www.linkedin.com/in/brian-glogower/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Brian Glogower</a>
+                  <a href = "https://www.linkedin.com/in/jordan-gerhardt-91a5141a2/" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Jordan Gerhardt</a>
+                  <a href = "https://www.artstation.com/miholicsmatt" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Matt Miholics</a>
+                  <a href = "https://www.artstation.com/alexgjasmin" className="py-5 justify-center flex md:px-4 text-mLink hover:text-mTan underline md:no-underline hover:underline">Alex Jasmin</a>
+              </div>
+
+              <div className="py-5">
+                  <h2 className="py-2 text-center font-bold ">Mentored by:</h2>
+                  <p className="py-5 justify-center flex md:px-4 text-mLink">Tony Rowe</p>
+                  <p className="py-5 justify-center flex md:px-4 text-mLink">Frank Lee</p>
+              </div>
+            </div>
+            <div id="contact" ></div>
+          </div>
+          <div className='py-3' ></div>
+          <div className="text-mPink bg-grimace rounded-lg text-2xl md:text-5xl py-10 px-4 items-center text-center">
+            <h1 className="font-bold text-3xl md:text-8xl">CONTACT US</h1>
+            <h2 className="py-5 font-bold">You can contact us via Email or on Linkedin</h2>
+            <div className="items-center flex flex-col md:flex-row md:inline-flex">
+              <p className="py-5 px-5 text-base md:text-2xl">contact[at]abductedmonkeys.com</p>
+              <a href='https://www.linkedin.com/company/abductedmonkeys/' className='py-5 px-5'>
+                <AiFillLinkedin className='text-5xl hover:text-mTan'/>
+              </a>
+            </div>
+          </div>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <Footer />
+    </>
   );
 }
