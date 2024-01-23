@@ -4,10 +4,11 @@ import './index.css';
 import App from './Components/App';
 import Lockjaw from './Components/Lockjaw';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import Layout from "./Components/Layout";
 
-let router = createBrowserRouter([
+let router = createHashRouter([
   {
     element: <Layout />,
     children: [
@@ -28,7 +29,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
   </React.StrictMode>
 );
 reportWebVitals();
