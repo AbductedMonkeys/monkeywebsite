@@ -2,14 +2,8 @@
 import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import threeMonkeys from "/public/threemonkeys.jpg"
-import { Swiper, SwiperSlide } from 'swiper';
+import CustSwiper from '@/components/CustSwiper';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-// import required modules
-import { Pagination } from 'swiper/modules';
 
 
 export default function Home() {
@@ -19,18 +13,9 @@ export default function Home() {
     
       <div id="TiTT" className=" bg-mTan h-full w-full top-40 pt-20 pb-6 px-6">
       <div className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-16 px-4">
+        <CustSwiper></CustSwiper>
             <h1 className="font-bold text-center text-3xl md:text-8xl">TROUBLE IN TORNADO TOWN</h1>
-        <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
+        
             <h2 className="py-5  text-center font-bold">Release Trailer:</h2>
             <iframe className='container mx-auto grow w-11/12 aspect-video self-center md:min-w-max' src="https://www.youtube.com/embed/yYihLYcPJls" title="Trouble in Tornado Town  - Release Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
             <div className='py-5 block'><iframe className="h-48 overflow-hidden container mx-auto" src="https://store.steampowered.com/widget/2180060/" /></div>

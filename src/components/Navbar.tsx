@@ -36,6 +36,7 @@ const Navbar = () => {
             rel="noreferrer"
           >
            <Image 
+           alt = "Abducted Monkeys Logo"
            className="cursor-pointer flex items-center object-contain w-fit h-14 md:h-20"
            src = {monkeyTrans}
            />
