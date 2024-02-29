@@ -1,5 +1,7 @@
+import spenImg from "../../public/threemonkeys.jpg"
 export const TeamPeople = [
     { 
+    id:'1', //need these numbers
     name: 'Spencer Cohen',
     img: spenImg,
     imgalt:"Spencer Image", //next images require this just do "{Person} Image"
@@ -17,6 +19,7 @@ export const TeamPeople = [
     },
     { 
         //second example for how to format curly braces
+        id:'2',
         name: 'Spencer Cohen',
         img: spenImg,
         imgalt:"Spencer Image", //next images require this just do "{Person} Image"

@@ -2,16 +2,24 @@
 import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import threeMonkeys from "/public/threemonkeys.jpg"
-
+import {TeamPeople} from "../../components/TeamMembers";
+import TeamCard from '@/components/TeamCard';
 
 export default function About() {
   return (
     <> 
         <div></div>
+        
           <div  className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center">
             <h1 className="font-bold text-center mt-20 text-3xl md:text-8xl">Team</h1>
             <div className="items-center my-3">
               <div className="py-2">
+              {TeamPeople.map((person)=>{
+                <div>
+                  <TeamCard props={person}></TeamCard>
+                </div>
+              })}
+              
                   <h2 className="py-2 text-center font-bold">Abducted Monkeys is:</h2>
                   <a href = "https://www.linkedin.com/in/spenceradamcohen/" className="py-5 justify-center md:px-4 flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Spencer Cohen</a>
                   <a href = "http://joshuapelican.github.io/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Joshua Pelkington</a>
