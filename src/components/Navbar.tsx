@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-mPink bg-grimace fixed nav">
       <div >
           <Link
             className="link-underline link-underline-black"
@@ -47,7 +47,7 @@ const Navbar = () => {
         {links.map(({ id, link, text }) => (
           <li
             key={id}
-            className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200 link-underline"
+            className="nav-links px-4 cursor-pointer capitalize font-medium text-mPink hover:scale-105 hover:text-mTan duration-200 link-underline"
           >
             <Link href={link}>{text}</Link>
           </li>

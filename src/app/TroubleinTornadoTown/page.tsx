@@ -1,4 +1,3 @@
-
 import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 
