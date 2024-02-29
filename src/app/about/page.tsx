@@ -10,15 +10,16 @@ export default function About() {
     <> 
         <div></div>
         
-          <div  className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center">
+          <div  className="text-mPink bg-mTan rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center">
             <h1 className="font-bold text-center mt-20 text-3xl md:text-8xl">Team</h1>
             <div className="items-center my-3">
               <div className="py-2">
-              {TeamPeople.map((person)=>{
-                <div>
-                  <TeamCard props={person}></TeamCard>
+              {TeamPeople.map((person)=>(
+                <div key={person.id}>
+                  <TeamCard person={person}></TeamCard>
                 </div>
-              })}
+              )
+              )}
               
                   <h2 className="py-2 text-center font-bold">Abducted Monkeys is:</h2>
                   <a href = "https://www.linkedin.com/in/spenceradamcohen/" className="py-5 justify-center md:px-4 flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Spencer Cohen</a>

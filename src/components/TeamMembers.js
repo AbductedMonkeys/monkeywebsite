@@ -1,4 +1,4 @@
-import spenImg from "../../public/threemonkeys.jpg"
+import spenImg from "../../public/AbductedMonkeysLogo-pinkgrimace.png"
 export const TeamPeople = [
     { 
     id:'1', //need these numbers
