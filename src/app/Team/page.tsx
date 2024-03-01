@@ -12,16 +12,17 @@ export default function About() {
           <div>
             <h1 className=" flex font-bold text-center mt-20 text-3xl md:text-8xl">Team</h1>
           </div>
-          <div className='w-1/2 flex flex-grid'>
+          <div className='w-1/2'>
             <div className="items-center my-3">
-              <div className="py-2">
+            <div className="py-2">
+            <div className='grid grid-cols-1 md:grid-cols-2'>
               {TeamPeople.map((person)=>(
-                <div key={person.id}>
+                  <div key={person.id}>
                   <TeamCard person={person}></TeamCard>
-                </div>
+                  </div>
               )
               )}
-              
+              </div>
                   <h2 className="py-2 text-center font-bold">Abducted Monkeys is:</h2>
                   <a href = "https://www.linkedin.com/in/spenceradamcohen/" className="py-5 justify-center md:px-4 flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Spencer Cohen</a>
                   <a href = "http://joshuapelican.github.io/" className="py-5 md:px-4 justify-center flex text-mLink hover:text-mTan underline md:no-underline hover:underline">Joshua Pelkington</a>

@@ -1,11 +1,48 @@
 import Image from "next/image";
+import Link from "next/link";
+import { FaGlobe, FaLinkedin, FaGithub, FaArtstation, } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
+const renderTeamLinks = (links) => {
+
+    return Object.keys(links).map((link, index) => {
+      switch (link) {
+        case 'personal':
+          return links[link] ? (
+            <Link href={links[link]}>
+                <FaGlobe key={`${link}-${index}`} className='text-4xl' />
+            </Link>) : null;
+        case 'linkedin':
+            return links[link] ? (
+                <Link href={links[link]}>
+                    <FaLinkedin key={`${link}-${index}`} className='text-4xl' />
+                </Link>) : null;
+        case 'git':
+            return links[link] ? (
+                <Link href={links[link]}>
+                    <FaGithub key={`${link}-${index}`} className='text-4xl' />
+                </Link>) : null;
+        case 'artstation':
+            return links[link] ? (
+                <Link href={links[link]}>
+                    <FaArtstation key={`${link}-${index}`} className='text-4xl' />
+                </Link>) : null;
+        case 'twitter':
+            return links[link] ? (
+                <Link href={links[link]}>
+                    <FaSquareXTwitter key={`${link}-${index}`} className='text-4xl' />
+                </Link>) : null;
+        default:
+          return null;
+      }
+    });
+  };
 
  const TeamCard = ({person}) => {
     return (
         <> 
-        <div className="w-1/4 h-auto">
-            <div className="bg-grimace m-10 p-2 flex flex-wrap justify-left rounded-md">
+        <div className="w-full h-auto">
+            <div className="bg-grimace m-6 p-2 flex flex-wrap justify-left rounded-md">
             <div className="w-6/12 sm:w-4/12 p-4">
                 <Image className="shadow rounded-full max-w-full h-auto align-middle border-none" src={person.img} alt={person.imgalt}/>
             </div>
@@ -16,7 +53,7 @@ import Image from "next/image";
                 </div>
                 <div className="flex flex-row w-full h-2/6">
                     <div className="flex justify-start">
-                        icon map
+                        {renderTeamLinks(person.links[0])}
                     </div>
                     <div className="flex justify-end">
                         game map
