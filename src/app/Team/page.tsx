@@ -8,10 +8,11 @@ import TeamCard from '@/components/TeamCard';
 export default function About() {
   return (
     <> 
-        <div></div>
-        
-          <div  className="text-mPink bg-mTan rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center">
-            <h1 className="font-bold text-center mt-20 text-3xl md:text-8xl">Team</h1>
+        <div  className="text-mPink bg-mTan rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center flex flex-col">
+          <div>
+            <h1 className=" flex font-bold text-center mt-20 text-3xl md:text-8xl">Team</h1>
+          </div>
+          <div className='w-1/2 flex flex-grid'>
             <div className="items-center my-3">
               <div className="py-2">
               {TeamPeople.map((person)=>(
@@ -39,6 +40,8 @@ export default function About() {
                   <p className="py-5 justify-center flex md:px-4 text-mLink">Frank Lee</p>
               </div>
             </div>
+          </div>  
+           
             </div>
     </>
   );

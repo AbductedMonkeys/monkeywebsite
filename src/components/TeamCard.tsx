@@ -5,7 +5,7 @@ import Image from "next/image";
     return (
         <> 
         <div className="w-1/2 h-auto">
-            <div className="bg-grimace m-10 p-2 flex flex-wrap justify-left">
+            <div className="bg-grimace m-10 p-2 flex flex-wrap justify-left rounded-md">
             <div className="w-6/12 sm:w-4/12 p-4">
                 <Image className="shadow rounded-full max-w-full h-auto align-middle border-none" src={person.img} alt={person.imgalt}/>
             </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "TroubleinTornadoTown",
+      link: "TornadoTown",
       text: "Trouble in Tornado Town",
     },
     {
@@ -22,8 +22,8 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: "About",
-      text: "About",
+      link: "Team",
+      text: "Team",
     },
   ];
 
