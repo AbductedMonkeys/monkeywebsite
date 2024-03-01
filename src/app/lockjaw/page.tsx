@@ -26,10 +26,11 @@ export const metadata: Metadata = {
 const Lockjaw = () => {
     return (
         <>
+        <div className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover" style={{backgroundImage : `${lockjawHero}`}}> </div>
         <Image 
             alt="Lockjaw Logo" 
             src={lockjawHero} 
-            className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover"
+            
         >  
         </Image>
         <div className="bg-lGray text-white  items-center flex flex-col ">
