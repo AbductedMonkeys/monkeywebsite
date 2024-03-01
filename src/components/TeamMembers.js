@@ -56,10 +56,10 @@ export const TeamPeople = [
     { 
         //second example for how to format curly braces
         id:'3',
-        name: 'Spencer Cohen',
-        img: spencerImg,
+        name: 'Alex Jasmin',
+        img: alexImg,
         imgalt:"Spencer Image", //next images require this just do "{Person} Image"
-        title: "weiner lover",
+        title: "Rock King",
         links:[{
             personal:"https://spencercohen.page",
             linkedin:"https://www.linkedin.com/in/spenceradamcohen",
@@ -76,7 +76,7 @@ export const TeamPeople = [
         name: 'Spencer Cohen',
         img: spencerImg,
         imgalt:"Spencer Image", //next images require this just do "{Person} Image"
-        title: "weiner lover",
+        title: "",
         links:[{
             personal:"https://spencercohen.page",
             linkedin:"https://www.linkedin.com/in/spenceradamcohen",
