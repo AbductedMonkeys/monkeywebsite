@@ -11,27 +11,27 @@ const renderTeamLinks = (links) => {
         case 'personal':
           return links[link] ? (
             <Link href={links[link]}>
-                <FaGlobe key={`${link}-${index}`} className='text-xl m-2 md:text-2xl' />
+                <FaGlobe key={`${link}-${index}`} className='text-xl m-2 ' />
             </Link>) : null;
         case 'linkedin':
             return links[link] ? (
                 <Link href={links[link]}>
-                    <FaLinkedin key={`${link}-${index}`} className='text-xl m-2 md:text-2xl' />
+                    <FaLinkedin key={`${link}-${index}`} className='text-xl m-2 ' />
                 </Link>) : null;
         case 'git':
             return links[link] ? (
                 <Link href={links[link]}>
-                    <FaGithub key={`${link}-${index}`} className='text-xl m-2 md:text-2xl' />
+                    <FaGithub key={`${link}-${index}`} className='text-xl m-2 ' />
                 </Link>) : null;
         case 'artstation':
             return links[link] ? (
                 <Link href={links[link]}>
-                    <FaArtstation key={`${link}-${index}`} className='text-xl m-2 md:text-2xl' />
+                    <FaArtstation key={`${link}-${index}`} className='text-xl m-2 ' />
                 </Link>) : null;
         case 'twitter':
             return links[link] ? (
                 <Link href={links[link]}>
-                    <FaSquareXTwitter key={`${link}-${index}`} className='text-xl m-2 md:text-2xl' />
+                    <FaSquareXTwitter key={`${link}-${index}`} className='text-xl m-2 ' />
                 </Link>) : null;
         default:
           return null;
@@ -43,9 +43,9 @@ const renderTeamLinks = (links) => {
     return Object.keys(games).map((game, index) => {
       switch (game) {
         case 'tornado':
-          return games[game] ? <Image src={tornadoImg} alt={'tornado icon'} key={`${game}-${index}`} className='h-6 md:h-8 w-auto m-2' /> : null;
+          return games[game] ? <Image src={tornadoImg} alt={'tornado icon'} key={`${game}-${index}`} className='h-6 md:h-5 w-auto m-2' /> : null;
         case 'lockjaw':
-            return games[game] ? <Image src={lockjawImg} alt={'lockjaw icon'} key={`${game}-${index}`} className='h-6 md:h-8 w-auto m-2' /> : null;
+            return games[game] ? <Image src={lockjawImg} alt={'lockjaw icon'} key={`${game}-${index}`} className='h-6 md:h-5 w-auto m-2' /> : null;
         default:
           return null;
       }
@@ -55,27 +55,27 @@ const renderTeamLinks = (links) => {
  const TeamCard = ({person}) => {
     return (
         <> 
-        <div className="w-full h-auto rounded-md ">
+       
             <div className="bg-grimace m-6 p-2 flex flex-wrap justify-left rounded-md outline-4 outline md:outline-8 outline-mTan">
             <div className="w-6/12 sm:w-4/12 p-4">
                 <Image className="shadow rounded-full max-w-full h-auto align-middle border-none" src={person.img} alt={person.imgalt}/>
             </div>
             <div className="flex flex-col p-4 w-full md:w-2/3">
                 <div className="text-left justify-center flex flex-col h-4/6">
-                    <h1 className="font-bold text-3xl w-max">{person?.name}</h1>
-                    <h2 className="font-bold text-xl w-max">{person?.title}</h2>
+                    <h1 className="font-bold text-xl text-wrap flex-wrap w-max">{person?.name}</h1>
+                    <h2 className="font-bold text-sm text-wrap flex-wrap w-max">{person?.title}</h2>
                 </div>
                 <div className="inline-flex justify-between w-full h-2/6">
-                    <div className="flex justify-start">
+                    <div className="flex flex-shrink">
                         {renderTeamLinks(person.links[0])}
                     </div>
-                    <div className="flex justify-end">
+                    <div className="flex flex-shrink">
                         {renderGameIcons(person.games[0])}
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+
         
   
         </>

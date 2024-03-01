@@ -13,29 +13,29 @@ function Footer() {
   return (
   <>
   <footer className={`pb-2 w-full ${pathname == '/Lockjaw' ? "bg-lGray" : "bg-grimace"}`} >
-  <div className="inline-flex mx-auto w-full justify-center pt-9">
+  <div className="inline-flex flex-wrap mx-auto w-full justify-center pt-9">
     <div className="mb-8">
-      <Link target='_blank' href="https://www.tiktok.com/@abductedmonkeys" className=" flex mx-5 text-4xl hover:text-mTan text-mPink ">
+      <Link target='_blank' href="https://www.tiktok.com/@abductedmonkeys" className=" flex mx-8 md:mx-5 text-4xl hover:text-mTan text-mPink ">
         <FaTiktok/>
       </Link>
     </div>
     <div className="mb-8 ">
-      <Link target='_blank' href="https://twitter.com/Abduct3dMonkeys" className=" flex mx-5 text-4xl hover:text-mTan text-mPink ">
+      <Link target='_blank' href="https://twitter.com/Abduct3dMonkeys" className=" flex mx-8 md:mx-5 text-4xl hover:text-mTan text-mPink ">
         <FaSquareXTwitter/>
       </Link>
     </div>
     <div className="mb-8  ">
-      <Link target='_blank' href="https://www.youtube.com/@AbductedMonkeys" className=" flex mx-5 text-4xl hover:text-mTan text-mPink ">
+      <Link target='_blank' href="https://www.youtube.com/@AbductedMonkeys" className=" flex mx-8 md:mx-5 text-4xl hover:text-mTan text-mPink ">
         <AiFillYoutube/>
       </Link>
     </div>
     <div className="mb-8  ">
-      <Link target='_blank' href='https://www.linkedin.com/company/abductedmonkeys/' className='flex mx-5 text-4xl hover:text-mTan text-mPink '>
+      <Link target='_blank' href='https://www.linkedin.com/company/abductedmonkeys/' className='flex mx-8 md:mx-5 text-4xl hover:text-mTan text-mPink '>
         <AiFillLinkedin />
       </Link>
     </div>
     <div className="mb-8  ">
-      <Link target='_blank' href='mailto:contact@abductedmonkeys.com' className='flex mx-5 text-4xl hover:text-mTan text-mPink '>
+      <Link target='_blank' href='mailto:contact@abductedmonkeys.com' className='flex mx-8 md:mx-5 text-4xl hover:text-mTan text-mPink '>
         <MdMail />
       </Link>
     </div>
