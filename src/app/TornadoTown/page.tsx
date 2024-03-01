@@ -1,7 +1,22 @@
 import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
+import { Metadata } from 'next';
 
-
+export const metadata: Metadata = {
+  title: "Trouble in Tornado Town",
+  description: "4 Player Action Party Brawler",
+  keywords: [],
+  openGraph:{
+      type: "website",
+      url: "https://www.abductedmonkeys.com/Lockjaw",
+      title: "Lockjaw: Robo-Royale",
+      description: "4 Player Action Party Brawler",
+      siteName: "Lockjaw",
+      images: [{
+        url: "https://mattmiholics.github.io/personal-site-next/images/mailbox/mailboxscreenshot.jpg",
+      }]
+  }
+};
 
 export default function TroubleinTornadoTown() {
   return (
