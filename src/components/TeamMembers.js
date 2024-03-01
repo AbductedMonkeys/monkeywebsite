@@ -39,10 +39,10 @@ export const TeamPeople = [
     { 
         //second example for how to format curly braces
         id:'2',
-        name: 'Spencer Cohen',
-        img: spencerImg,
+        name: 'Jordan Gerhardt',
+        img: jordanImg,
         imgalt:"Spencer Image", //next images require this just do "{Person} Image"
-        title: "weiner lover",
+        title: "Bald",
         links:[{
             personal:"https://spencercohen.page",
             linkedin:"https://www.linkedin.com/in/spenceradamcohen",

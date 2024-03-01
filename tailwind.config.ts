@@ -19,6 +19,8 @@ const config: Config = {
         'mTan':'#d8c0c6',
         'mPink':'#d8717b',
         'mLink' : '#ffb2b7',
+        'lGray' : '#151515',
+        'lOrange' : '#fda343',
       },
     },
   },
