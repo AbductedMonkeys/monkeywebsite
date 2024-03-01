@@ -26,14 +26,13 @@ export const metadata: Metadata = {
 const Lockjaw = () => {
     return (
         <>
-        <div className='min-h-max w-full bg-no-repeat bg-fixed bg-fixed bg-center'>
+        
         <Image 
                 alt="Lockjaw Logo" 
                 src={lockjawHero} 
-                className=""
+                className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover"
             />
-        
-        <div className="bg-lGray text-white h-screen items-center flex flex-col ">
+        <div className="bg-lGray text-white h-full items-center flex flex-col ">
         <h1 className="font-bold text-center text-3xl md:text-8xl mt-20">Lockjaw</h1>
             <div className='w-3/4 justify-center grid grid-row-1 md:grid-row-2'>
                 <div className='w-full flex flex-row'>
@@ -49,11 +48,15 @@ const Lockjaw = () => {
                     <div className='inline-flex justify-around content-center w-full py-5'>
                         <div className='flex center'>
                             <Link href={"https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"}>
-                                <FaSteam className='text-5xl' />
+                                <FaSteam className='text-5xl hover:text-lOrange' />
                             </Link>
                         </div>
-                        <div className='flex'>
-                            Press Kit
+                        <div className='flex outline outline-lOrange group hover:bg-lOrange rounded-xl'>
+                            <Link href={""}>
+                            <div className='px-5 py-2 group-hover:text-white'>
+                                Press Kit
+                            </div>
+                            </Link>
                         </div>
 
                     </div>
@@ -63,7 +66,7 @@ const Lockjaw = () => {
             
             </div>
         </div>
-        </div>
+
         
 
         </>
