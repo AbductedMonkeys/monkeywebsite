@@ -50,7 +50,7 @@ export const TeamPeople = [
         }],
         games:[{
             tornado: true,
-            lockjaw: true,
+            lockjaw: false,
         }]
     },
     { 
