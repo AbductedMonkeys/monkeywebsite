@@ -26,19 +26,17 @@ export const metadata: Metadata = {
 const Lockjaw = () => {
     return (
         <>
-        
         <Image 
-                alt="Lockjaw Logo" 
-                src={lockjawHero} 
-                className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover"
-            />
-        <div className="bg-lGray text-white h-full items-center flex flex-col ">
+            alt="Lockjaw Logo" 
+            src={lockjawHero} 
+            className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover"
+        >  
+        </Image>
+        <div className="bg-lGray text-white  items-center flex flex-col ">
         <h1 className="font-bold text-center text-3xl md:text-8xl mt-20">Lockjaw</h1>
             <div className='w-3/4 justify-center grid grid-row-1 md:grid-row-2'>
                 <div className='w-full flex flex-row'>
                     <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center'>
-                        
-                            
                         <p className="py-5 px-5 text-left">Welcome to Lockjaw, where its every robot for themselves in the tournament of the century!</p>
                         <p className="py-5 px-5 text-left">Grab parts laying around and knock them off others! Starting off with just your robotic core, scavenge parts to ensure your robot’s survival. With four slots on every robot, mix and match parts—each engagement is sure to grind some gears. Pack some heat with the dodgeball launcher to send robots flying, or deliver a powered-up punch with The Tenderizer!</p>
                         <p className="py-5 px-5 text-left">Every gadget can make an impact in the dynamic battles of Lockjaw. Gear up and join the robotic rumble today!</p>
