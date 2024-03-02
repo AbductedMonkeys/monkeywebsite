@@ -197,6 +197,8 @@ export const TeamPeople = [
         imgalt:"Oliver Deinzer image",
         title: "Programmer",
         links:[{
+            git: "https://github.com/olli1616",
+            artstation: "https://www.artstation.com/oliverdeinzer",
             linkedin:"https://www.linkedin.com/in/oliver-deinzer/",
         }],
         games:[{
@@ -238,9 +240,9 @@ export const TeamPeople = [
         name: 'John Eberly',
         img: johnImg,
         imgalt:"John Eberly image",
-        title: "Programmer",
+        title: "Gameplay Programmer",
         links:[{
-            // add later
+            git: "https://github.com/Jjman739",
         }],
         games:[{
             tornado: false,
