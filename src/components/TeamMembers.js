@@ -228,6 +228,7 @@ export const TeamPeople = [
         imgalt:"Ricky Chen image",
         title: "Programmer",
         links:[{
+            git: "https://github.com/RickyChen67",
             linkedin:"https://www.linkedin.com/in/ricky-chen-a6930120a/",
         }],
         games:[{
