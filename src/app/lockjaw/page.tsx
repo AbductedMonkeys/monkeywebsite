@@ -64,9 +64,10 @@ const Lockjaw = () => {
                     </div>  
                 </div>
                 <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 items-center text-center'>
-                    <p className="py-5 px-5 text-left">Welcome to Lockjaw, where its every robot for themselves in the tournament of the century!</p>
-                    <p className="py-5 px-5 text-left">Grab parts laying around and knock them off others! Starting off with just your robotic core, scavenge parts to ensure your robot’s survival. With four slots on every robot, mix and match parts—each engagement is sure to grind some gears. Pack some heat with the dodgeball launcher to send robots flying, or deliver a powered-up punch with The Tenderizer!</p>
-                    <p className="py-5 px-5 text-left">Every gadget can make an impact in the dynamic battles of Lockjaw. Gear up and join the robotic rumble today!</p>
+                    <p className="py-5 px-5 text-left">Lockjaw is a multiplayer party brawler game where robots use interchangeable arm, leg, and head parts to fight to win a Robo-Royale! </p>
+                    <p className="py-5 px-5 text-left">Robots start each match with a blank slate—scramble for arm, leg, and head parts to amplify your capabilities and gain the upper hand. Robots can hold up to 4 parts at a time, so get greedy!</p>
+                    <p className="py-5 px-5 text-left">Adapt to the random assortment of parts in each battle. Grapple walls, dodge balls, and lock jaws! Every match is different, so be sure to change up your strategy!</p>
+                    <p className="py-5 px-5 text-left">Play Lockjaw with up to four players in local multiplayer or over Steam Remote Play Together!</p>
                 </div>
             </div>
             

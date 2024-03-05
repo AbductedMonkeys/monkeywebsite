@@ -3,8 +3,8 @@ import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import threeMonkeys from "/public/threemonkeys.jpg"
 import CustSwiper from '@/components/CustSwiper';
-import lockjawThum from '/public/lockjaw/lockjaw_opengraph_thumbnail.png'
-import tornadoThum from '/public/tornadotown/tornadotown_opengraph_thumbnail.png'
+import lockjawThum from '../../public/lockjaw/lockjaw_opengraph_thumbnail.png'
+import tornadoThum from '../../public/tornadotown/tornadotown_opengraph_thumbnail.png'
 import Link from 'next/link';
 
 
