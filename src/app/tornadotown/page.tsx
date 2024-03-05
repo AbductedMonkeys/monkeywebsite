@@ -54,7 +54,7 @@ export default function TroubleinTornadoTown() {
             </div>
             <div className='h-auto w-full pb-6 px-6 text-xl md:text-5xl py-10 text-center'>
                 <p className="py-5 px-5 text-left">Play as a tornado and try to destroy as much of of the landscape as possible, as quickly as possible!</p>
-                <p className="py-5 px-5 text-left">Welcome to Tornado Town, a place so lovely you`&apos;`ll be blown away! Trouble in Tornado town is a physics-driven cartoon destruction game where you grow into the most powerful tornado ever seen!</p>
+                <p className="py-5 px-5 text-left">Welcome to Tornado Town, a place so lovely you&apos;ll be blown away! Trouble in Tornado town is a physics-driven cartoon destruction game where you grow into the most powerful tornado ever seen!</p>
             </div>
         </div> 
     </div>

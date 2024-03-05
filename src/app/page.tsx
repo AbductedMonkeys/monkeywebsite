@@ -43,7 +43,7 @@ export default function Home() {
             </div>
           
             <div className='h-auto w-full pb-6 px-6 text-xl md:text-5xl py-10'>
-              <p>Welcome to Tornado Town! It`&apos;`s a place so lovely, you`&apos;`ll be blown away! Trouble in Tornado Town is a physics-driven cartoon destruction game, where you grow into the most powerful tornado ever seen!</p>
+              <p>Welcome to Tornado Town! It&apos;s a place so lovely, you&apos;ll be blown away! Trouble in Tornado Town is a physics-driven cartoon destruction game, where you grow into the most powerful tornado ever seen!</p>
             </div>
         </div>
         
