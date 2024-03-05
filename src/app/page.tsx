@@ -3,8 +3,8 @@ import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import threeMonkeys from "/public/threemonkeys.jpg"
 import CustSwiper from '@/components/CustSwiper';
-import lockjawThum from '../../public/lockjaw/lockjaw_opengraph_thumbnail.png'
-import tornadoThum from '../../public/tornadotown/tornadotown_opengraph_thumbnail.png'
+import lockjawThum from '../../public/lockjaw/lockjawopengraphthumbnail.png'
+import tornadoThum from '../../public/tornadotown/tornadotownopengraphthumbnail.png'
 import Link from 'next/link';
 
 
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
           
             <div className='h-auto w-full pb-6 px-6 text-xl md:text-5xl py-10'>
-              <p>Welcome to Tornado Town! It’s a place so lovely, you'll be blown away! Trouble in Tornado Town is a physics-driven cartoon destruction game, where you grow into the most powerful tornado ever seen!</p>
+              <p>Welcome to Tornado Town! It`&apos;`s a place so lovely, you`&apos;`ll be blown away! Trouble in Tornado Town is a physics-driven cartoon destruction game, where you grow into the most powerful tornado ever seen!</p>
             </div>
         </div>
         

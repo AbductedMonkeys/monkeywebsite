@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: "Video game studio developing Trouble in Tornado Town & Lockjaw: Robo-Royale",
     siteName: "Abducted Monkeys",
     images: [{
-      url: "https://www.abductedmonkeys.com/monkey_thin.png",
+      url: "https://www.abductedmonkeys.com/monkeythin.png",
     }]
   }
 };

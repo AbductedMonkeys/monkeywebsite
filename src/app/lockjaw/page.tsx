@@ -1,7 +1,7 @@
 
 import React from 'react';
-import lockjawHero from '../../../public/lockjaw/library_hero.webp'
-import lockjawLogoTrans from '../../../public/lockjaw/library_logo_transparent.png'
+import lockjawHero from '../../../public/lockjaw/libraryhero.webp'
+import lockjawLogoTrans from '../../../public/lockjaw/librarylogotransparent.png'
 import {lockjawSwiper} from '../../components/sliderimgs'
 import Image from 'next/image';
 import type { Metadata } from "next";

@@ -5,6 +5,7 @@ import { FaSteam } from "react-icons/fa";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.abductedmonkeys.com'),
   title: "Trouble in Tornado Town",
   description: "Singleplayer Physics Destruction Game",
   keywords: ['Game', 'Single Player Game','ttt', 'tornado town', 'trouble in tornado town', 'tornado game', 'arcade', 'cartoon', 'kid', 'ipad', 'simple', 'silly', 'goofy', 'casual', 'simple' ],
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
     {name: 'Abducted Monkeys LLC'}
 ],
   openGraph:{
+    
       type: "website",
       url: "https://www.abductedmonkeys.com/tornadotown",
       title: "Trouble in Tornado Town",
@@ -52,7 +54,7 @@ export default function TroubleinTornadoTown() {
             </div>
             <div className='h-auto w-full pb-6 px-6 text-xl md:text-5xl py-10 text-center'>
                 <p className="py-5 px-5 text-left">Play as a tornado and try to destroy as much of of the landscape as possible, as quickly as possible!</p>
-                <p className="py-5 px-5 text-left">Welcome to Tornado Town, a place so lovely youll be blown away! Trouble in Tornado town is a physics-driven cartoon destruction game where you grow into the most powerful tornado ever seen!</p>
+                <p className="py-5 px-5 text-left">Welcome to Tornado Town, a place so lovely you`&apos;`ll be blown away! Trouble in Tornado town is a physics-driven cartoon destruction game where you grow into the most powerful tornado ever seen!</p>
             </div>
         </div> 
     </div>
