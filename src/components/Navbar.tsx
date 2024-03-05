@@ -66,7 +66,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className={`flex flex-col justify-center items-center ${pathname == '/Lockjaw' ? "bg-lGray" : "bg-grimace"} absolute top-0 left-0 w-full h-screen`}>
+        <ul className={`flex flex-col justify-center text-center items-center ${pathname == '/Lockjaw' ? "bg-lGray" : "bg-grimace"} absolute top-0 left-0 w-full h-screen`}>
           {links.map(({ id, link, text }) => (
             <li
               key={id}

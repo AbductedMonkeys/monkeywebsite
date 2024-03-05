@@ -1,6 +1,6 @@
 
 import React from 'react';
-import lockjawHero from '../../../public/lockjaw/library_hero.png'
+import lockjawHero from '../../../public/lockjaw/library_hero.webp'
 import lockjawLogoTrans from '../../../public/lockjaw/library_logo_transparent.png'
 import {lockjawSwiper} from '../../components/sliderimgs'
 import Image from 'next/image';
@@ -49,12 +49,12 @@ const Lockjaw = () => {
                     <iframe className='aspect-video w-full h-auto self-center' src="https://www.youtube.com/embed/8W2iGwhywOQ" title="Lockjaw: Robo-Royale Gameplay Trailer - New Demo Out Now!"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     <div className='inline-flex justify-center content-center w-full p-5'>
                         <div className='flex center px-2 md:mx-20 text-lOrange'>
-                            <Link href={"https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"}>
+                            <Link href={"https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"} target='_blank'>
                                 <FaSteam className='text-5xl hover:text-white' />
                             </Link>
                         </div>
                         <div className='flex outline outline-lOrange px-2  md:mx-20 group hover:bg-lOrange rounded-xl'>
-                            <Link href={""}>
+                            <Link href={""} target='_blank'>
                                 <div className='p-3 text-sm md:text-base text-lOrange group-hover:text-white'>
                                     Press Kit
                                 </div>
