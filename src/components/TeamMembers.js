@@ -73,7 +73,6 @@ export const TeamPeople = [
         links:[{
             personal:"https://joshuapelican.github.io/",
             linkedin:"https://www.linkedin.com/in/spenceradamcohen",
-            twitter: "https://twitter.com/Spenc3_",
         }],
         games:[{
             tornado: true,
