@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     ],
     openGraph:{
         type: "website",
-        url: "https://www.abductedmonkeys.com/Lockjaw",
+        url: "https://www.abductedmonkeys.com/lockjaw",
         title: "Lockjaw: Robo-Royale",
         description: "4 Player Action Party Brawler",
         siteName: "Lockjaw",
         images: [{
-          url: "https://mattmiholics.github.io/personal-site-next/images/mailbox/mailboxscreenshot.jpg",
+          url: "https://www.abductedmonkeys.com/lockjaw/lockjaw_opengraph_thumbnail.png",
         }]
     }
   };
@@ -54,7 +54,7 @@ const Lockjaw = () => {
                             </Link>
                         </div>
                         <div className='flex outline outline-lOrange px-2  md:mx-20 group hover:bg-lOrange rounded-xl'>
-                            <Link href={""} target='_blank'>
+                            <Link href={"https://drive.google.com/drive/folders/1U8Fh48_GMZZqPVF2Gwe3rIJsbEdI00e8?usp=sharing"} target='_blank'>
                                 <div className='p-3 text-sm md:text-base text-lOrange group-hover:text-white'>
                                     Press Kit
                                 </div>

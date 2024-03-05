@@ -13,17 +13,22 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "TornadoTown",
-      text: "Trouble in Tornado Town",
+      link: "/",
+      text: "Home",
     },
     {
       id: 2,
-      link: "Lockjaw",
-      text: "Lockjaw",
+      link: "tornadotown",
+      text: "Trouble in Tornado Town",
     },
     {
       id: 3,
-      link: "Team",
+      link: "lockjaw",
+      text: "Lockjaw",
+    },
+    {
+      id: 4,
+      link: "team",
       text: "Team",
     },
   ];
@@ -32,7 +37,7 @@ const Navbar = () => {
   console.log(pathname);
   return (
     
-    <div className={`flex justify-between items-center w-full h-20 px-4  ${pathname == '/Lockjaw' ? "bg-lGray text-lOrange" : "bg-grimace text-mPink"} fixed nav`}>
+    <div className={`flex justify-between items-center w-full h-20 px-4  ${pathname == '/lockjaw' ? "bg-lGray text-lOrange" : "bg-grimace text-mPink"} fixed nav`}>
       <div >
           <Link
             className="link-underline link-underline-black"
@@ -51,7 +56,7 @@ const Navbar = () => {
         {links.map(({ id, link, text }) => (
           <li
             key={id}
-            className={`nav-links px-4 cursor-pointer capitalize text-2xl ${pathname == '/Lockjaw' ? "text-lOrange hover:text-white" : "text-mPink hover:text-mTan"} hover:scale-105  duration-200 link-underline`}
+            className={`nav-links px-4 cursor-pointer capitalize text-2xl ${pathname == '/lockjaw' ? "text-lOrange hover:text-white" : "text-mPink hover:text-mTan"} hover:scale-105  duration-200 link-underline`}
           >
             <Link href={link}>{text}</Link>
           </li>
@@ -60,13 +65,13 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className={`cursor-pointer pr-4 z-10 ${pathname == '/Lockjaw' ? "text-lOrange" : "text-mPink"} md:hidden`}
+        className={`cursor-pointer pr-4 z-10 ${pathname == '/lockjaw' ? "text-lOrange" : "text-mPink"} md:hidden`}
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className={`flex flex-col justify-center text-center items-center ${pathname == '/Lockjaw' ? "bg-lGray" : "bg-grimace"} absolute top-0 left-0 w-full h-screen`}>
+        <ul className={`flex flex-col justify-center text-center items-center ${pathname == '/lockjaw' ? "bg-lGray" : "bg-grimace"} absolute top-0 left-0 w-full h-screen`}>
           {links.map(({ id, link, text }) => (
             <li
               key={id}
