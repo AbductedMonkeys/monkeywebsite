@@ -27,7 +27,7 @@ export default function Home() {
         <div className='w-3/4 justify-center items-center flex flex-col lg:flex-row-reverse'>
             <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 justify-end items-center rounded-lg'>
               <Link href={"/lockjaw"}>
-                <Image alt="Abducted Monkeys Team" src ={lockjawThum} className="rounded-lg py-4 inline-flex justify-center"/> 
+                <Image alt="Abducted Monkeys Team" src ={lockjawThum} className="rounded-2xl inline-flex justify-center hover:animate-bounce"/> 
               </Link> 
             </div>
             <div className='h-auto w-full pb-6 px-6 text-xl md:text-5xl py-10'>
@@ -38,7 +38,7 @@ export default function Home() {
         <div className='w-3/4 justify-center items-center flex flex-col lg:flex-row'>
             <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 items-center rounded-lg '>
               <Link href={"/tornadotown"}>
-                <Image alt="Abducted Monkeys Team" src ={tornadoThum} className="rounded-lg py-4 inline-flex justify-center"/> 
+                <Image alt="Abducted Monkeys Team" src ={tornadoThum} className="h-fit rounded-2xl  inline-flex justify-center hover:animate-spin"/> 
               </Link>
             </div>
           
