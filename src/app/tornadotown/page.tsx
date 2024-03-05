@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       description: "Singleplayer Physics Destruction Game",
       siteName: "Trouble in Tornado Town",
       images: [{
-        url: "https://mattmiholics.github.io/personal-site-next/images/mailbox/mailboxscreenshot.jpg",
+        url: "https://www.abductedmonkeys.com/tornadotown/tornadotownopengraphthumbnail.png",
       }]
   }
 };

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         description: "4 Player Action Party Brawler",
         siteName: "Lockjaw",
         images: [{
-          url: "https://www.abductedmonkeys.com/lockjaw/lockjaw_opengraph_thumbnail.png",
+          url: "https://www.abductedmonkeys.com/lockjaw/lockjawopengraphthumbnail.png",
         }]
     }
   };
