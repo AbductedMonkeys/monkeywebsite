@@ -15,9 +15,9 @@ export default function About() {
           <div className='w-full md:w-1/2'>
             <div className="items-center my-3">
               <div className="py-2">
-                <div className='grid grid-cols-1 md:grid-cols-2'>
+                <div className='grid grid-cols-1 xl:grid-cols-2'>
                   {TeamPeople.map((person)=>(
-                      <div key={person.id}>
+                      <div className='py-5' key={person.id}>
                       <TeamCard person={person}></TeamCard>
                       </div>
                   )

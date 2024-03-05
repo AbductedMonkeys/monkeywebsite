@@ -1,16 +1,22 @@
+
 import React from 'react';
-import lockjawLogo from '/public/lockjawLogo.jpg';
 import lockjawHero from '../../../public/lockjaw/library_hero.png'
 import lockjawLogoTrans from '../../../public/lockjaw/library_logo_transparent.png'
+import {lockjawSwiper} from '../../components/sliderimgs'
 import Image from 'next/image';
 import type { Metadata } from "next";
 import { FaSteam } from "react-icons/fa";
 import Link from 'next/link';
+import CustSwiper from '@/components/CustSwiper';
 
 export const metadata: Metadata = {
     title: "Lockjaw",
     description: "4 Player Action Party Brawler",
-    keywords: [],
+    keywords: ['Lockjaw','Game','Video Game','Robo','Robot','Lockjaw: Robo-Royale','Lockjaw: Robo Royale','Lockjaw: RoboRoyale','Lockjaw: RobotRoyale','Lockjaw: Robot Royale', 'Lockjaw: Robot-Royale','Lockjaw: Robo-Royal','Lockjaw: Robo Royal','Lockjaw: RoboRoyal','Lockjaw: RobotRoyal','Lockjaw: Robot Royal', 'Lockjaw: Robot-Royal','Robo-Royale','Robo Royale','RoboRoyale','RobotRoyale','Robot Royale', 'Robot-Royale','Robo-Royal','Robo Royal','RoboRoyal','RobotRoyal','Robot Royal', 'Robot-Royal','Mulitplayer', 'Co-op', 'Couch Co-op', 'Steam', 'Steam Game', 'Steam Multiplayer', ],
+    authors: [
+        {name: 'Matt Miholics'}, 
+        {name: 'Abducted Monkeys LLC'}
+    ],
     openGraph:{
         type: "website",
         url: "https://www.abductedmonkeys.com/Lockjaw",
@@ -26,44 +32,43 @@ export const metadata: Metadata = {
 const Lockjaw = () => {
     return (
         <>
-        <div className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover" style={{backgroundImage : `${lockjawHero}`}}> </div>
+        <div className="flex items-center justify-center mx-auto h-0 lg:h-screen bg-contain bg-fixed bg-center  lg:bg-cover" style={{backgroundImage : `url(${lockjawHero.src})`}}> 
         <Image 
             alt="Lockjaw Logo" 
-            src={lockjawHero} 
-            
+            src={lockjawLogoTrans} 
+            className='w-20 lg:w-3/4'
         >  
-        </Image>
-        <div className="bg-lGray text-white  items-center flex flex-col ">
-        <h1 className="font-bold text-center text-3xl md:text-8xl mt-20">Lockjaw</h1>
-            <div className='w-3/4 justify-center grid grid-row-1 md:grid-row-2'>
-                <div className='w-full flex flex-row'>
-                    <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center'>
-                        <p className="py-5 px-5 text-left">Welcome to Lockjaw, where its every robot for themselves in the tournament of the century!</p>
-                        <p className="py-5 px-5 text-left">Grab parts laying around and knock them off others! Starting off with just your robotic core, scavenge parts to ensure your robot’s survival. With four slots on every robot, mix and match parts—each engagement is sure to grind some gears. Pack some heat with the dodgeball launcher to send robots flying, or deliver a powered-up punch with The Tenderizer!</p>
-                        <p className="py-5 px-5 text-left">Every gadget can make an impact in the dynamic battles of Lockjaw. Gear up and join the robotic rumble today!</p>
-                    </div>
-                    <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center items-center'>
+        </Image> 
+        </div>
+        {/* <div className="flex items-center justify-center h-96 bg-local bg-center bg-cover" style={{backgroundImage : `url(${lockjawLogoTrans.src})`}}> </div> */}
+        {/* */}
+        <div className="bg-lGray text-white lg:py-20 items-center flex flex-col ">
+        <h1 className="font-bold text-center text-3xl mt-40 md:text-8xl my-20">Lockjaw</h1>
+            <div className='w-3/4 justify-center flex flex-col lg:flex-row'>
+                <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center items-center'>
                     <iframe className='aspect-video w-full h-auto self-center' src="https://www.youtube.com/embed/8W2iGwhywOQ" title="Lockjaw: Robo-Royale Gameplay Trailer - New Demo Out Now!"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-                    <div className='inline-flex justify-around content-center w-full py-5'>
-                        <div className='flex center'>
+                    <div className='inline-flex justify-center content-center w-full p-5'>
+                        <div className='flex center px-2 md:mx-20 text-lOrange'>
                             <Link href={"https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"}>
-                                <FaSteam className='text-5xl hover:text-lOrange' />
+                                <FaSteam className='text-5xl hover:text-white' />
                             </Link>
                         </div>
-                        <div className='flex outline outline-lOrange group hover:bg-lOrange rounded-xl'>
+                        <div className='flex outline outline-lOrange px-2  md:mx-20 group hover:bg-lOrange rounded-xl'>
                             <Link href={""}>
-                            <div className='px-5 py-2 group-hover:text-white'>
-                                Press Kit
-                            </div>
+                                <div className='p-3 text-sm md:text-base text-lOrange group-hover:text-white'>
+                                    Press Kit
+                                </div>
                             </Link>
-                        </div>
-
-                    </div>
-                           
-                    </div>
+                        </div>     
+                    </div>  
                 </div>
-            
+                <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center'>
+                    <p className="py-5 px-5 text-left">Welcome to Lockjaw, where its every robot for themselves in the tournament of the century!</p>
+                    <p className="py-5 px-5 text-left">Grab parts laying around and knock them off others! Starting off with just your robotic core, scavenge parts to ensure your robot’s survival. With four slots on every robot, mix and match parts—each engagement is sure to grind some gears. Pack some heat with the dodgeball launcher to send robots flying, or deliver a powered-up punch with The Tenderizer!</p>
+                    <p className="py-5 px-5 text-left">Every gadget can make an impact in the dynamic battles of Lockjaw. Gear up and join the robotic rumble today!</p>
+                </div>
             </div>
+            
         </div>
 
         
