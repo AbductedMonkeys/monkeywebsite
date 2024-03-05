@@ -10,6 +10,7 @@ import Link from 'next/link';
 import CustSwiper from '@/components/CustSwiper';
 
 export const metadata: Metadata = {
+    metadataBase: new URL('https://www.abductedmonkeys.com'),
     title: "Lockjaw",
     description: "4 Player Action Party Brawler",
     keywords: ['Lockjaw','Game','Video Game','Robo','Robot','Lockjaw: Robo-Royale','Lockjaw: Robo Royale','Lockjaw: RoboRoyale','Lockjaw: RobotRoyale','Lockjaw: Robot Royale', 'Lockjaw: Robot-Royale','Lockjaw: Robo-Royal','Lockjaw: Robo Royal','Lockjaw: RoboRoyal','Lockjaw: RobotRoyal','Lockjaw: Robot Royal', 'Lockjaw: Robot-Royal','Robo-Royale','Robo Royale','RoboRoyale','RobotRoyale','Robot Royale', 'Robot-Royale','Robo-Royal','Robo Royal','RoboRoyal','RobotRoyal','Robot Royal', 'Robot-Royal','Mulitplayer', 'Co-op', 'Couch Co-op', 'Steam', 'Steam Game', 'Steam Multiplayer', ],
@@ -43,7 +44,7 @@ const Lockjaw = () => {
         {/* <div className="flex items-center justify-center h-96 bg-local bg-center bg-cover" style={{backgroundImage : `url(${lockjawLogoTrans.src})`}}> </div> */}
         {/* */}
         <div className="bg-lGray text-white lg:py-20 items-center flex flex-col ">
-        <h1 className="font-bold text-center text-3xl mt-40 md:text-8xl my-20">Lockjaw</h1>
+        <h1 className="font-bold text-center text-5xl mt-40 lg:text-8xl my-20">Lockjaw</h1>
             <div className='w-3/4 justify-center flex flex-col lg:flex-row'>
                 <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center items-center'>
                     <iframe className='aspect-video w-full h-auto self-center' src="https://www.youtube.com/embed/8W2iGwhywOQ" title="Lockjaw: Robo-Royale Gameplay Trailer - New Demo Out Now!"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
@@ -62,7 +63,7 @@ const Lockjaw = () => {
                         </div>     
                     </div>  
                 </div>
-                <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center'>
+                <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 items-center text-center'>
                     <p className="py-5 px-5 text-left">Welcome to Lockjaw, where its every robot for themselves in the tournament of the century!</p>
                     <p className="py-5 px-5 text-left">Grab parts laying around and knock them off others! Starting off with just your robotic core, scavenge parts to ensure your robot’s survival. With four slots on every robot, mix and match parts—each engagement is sure to grind some gears. Pack some heat with the dodgeball launcher to send robots flying, or deliver a powered-up punch with The Tenderizer!</p>
                     <p className="py-5 px-5 text-left">Every gadget can make an impact in the dynamic battles of Lockjaw. Gear up and join the robotic rumble today!</p>

@@ -10,7 +10,7 @@ export default function About() {
     <> 
         <div  className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl py-10 px-4 text-center items-center flex flex-col">
           <div className='mt-20 bg-grimace rounded-md w-1/2 h-fit'>
-            <h1 className="py-5 font-bold text-center text-3xl md:text-8xl">Team</h1>
+            <h1 className="py-5 font-bold text-center text-5xl lg:text-8xl">Team</h1>
           </div>
           <div className='w-full md:w-1/2'>
             <div className="items-center my-3">
@@ -23,13 +23,7 @@ export default function About() {
                   )
                   )}
                 </div>
-                <div className="py-5">
-                      <h2 className="py-2 text-center font-bold">Mentored by:</h2>
-                      <div className='inline-flex'>
-                      <p className="my-5 flex md:px-4 text-mLink">Tony Rowe</p>
-                      <p className="my-5 flex md:px-4 text-mLink">Frank Lee</p>
-                      </div> 
-                  </div>
+                
             </div>  
            </div>
           </div>
