@@ -2,7 +2,6 @@
 import {AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import threeMonkeys from "/public/threemonkeys.jpg"
-import CustSwiper from '@/components/CustSwiper';
 import lockjawThum from '../../public/lockjaw/lockjawopengraphthumbnail.png'
 import tornadoThum from '../../public/tornadotown/tornadotownopengraphthumbnail.png'
 import Link from 'next/link';
@@ -20,10 +19,10 @@ export default function Home() {
               <Image alt="Abducted Monkeys Team" src ={threeMonkeys} className="py-4 inline-flex justify-center"/> 
             </div>
             <div className='h-auto w-full pb-6 px-6 text-lg md:text-4xl py-10 items-center'>
-                <p className="py-5">Abducted Monkeys is a small team of students developing our indie action game Trouble in Tornado Town. We strive to develop compact, enjoyable experiences for players of all skill levels.</p>
-                <p className="py-5">All of our developers are currently studying Game Design and Production at Drexel University. Trouble in Tornado Town was developed during the 3rd year of our studies and we owe a great deal of gratitude to our professors at Drexels Entrepreneurial Game Studio for their advice and industry know-how.</p>
-            </div>  
-        </div>
+                <p className="py-5">Abducted Monkeys is an indie game studio currently working on casual action games. The Monkeys have been developing games since 2022. In 2023 we released our first single-player action game, <Link className='underline hover:text-mTan' href={'/tornadotown'}>Trouble in Tornado Town.</Link></p>
+                <p className="py-5">We are currently working on <Link className='underline hover:text-mTan' href={'/lockjaw'}>Lockjaw: Robo-Royale</Link>, a local-multiplayer robot brawler.</p>
+            </div>
+            </div>
         <div className='w-3/4 justify-center items-center flex flex-col lg:flex-row-reverse'>
             <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 justify-end items-center rounded-lg'>
               <Link href={"/lockjaw"}>
@@ -48,7 +47,7 @@ export default function Home() {
         </div>
         
     </div>
-
+ 
     </>
 
   );
