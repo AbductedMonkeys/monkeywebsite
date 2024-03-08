@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <> 
       
-      <div className="text-mPink bg-grimace h-full justify-center lg:py-20 items-center flex flex-col ">
+      <div className="text-mPink bg-grimace h-full justify-center md:py-20 items-center flex flex-col ">
       <h1 className="font-bold text-center text-5xl lg:text-8xl mt-20 md:my-10">ABOUT</h1>
-        <div className='w-full md:w-3/4 justify-center flex flex-col lg:flex-row'>
+        <div className='w-full md:w-3/4 justify-center flex flex-col xl:flex-row'>
             <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center items-center'>
               <Image alt="Abducted Monkeys Team" src ={threeMonkeys} className="md:py-4 inline-flex justify-center"/> 
             </div>
@@ -23,7 +23,7 @@ export default function Home() {
                 <p className="py-5">We are currently working on <Link className='underline hover:text-mTan' href={'/lockjaw'}>Lockjaw: Robo-Royale</Link>, a local-multiplayer robot brawler.</p>
             </div>
             </div>
-        <div className='w-full md:w-3/4 justify-center flex flex-col lg:flex-row-reverse'>
+        <div className='w-full md:w-3/4 justify-center flex flex-col xl:flex-row-reverse'>
             <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl md:py-10 justify-end items-center rounded-lg'>
               <Link href={"/lockjaw"}>
                 <Image alt="Abducted Monkeys Team" src ={lockjawThum} className="rounded-2xl inline-flex justify-center hover:animate-bounce"/> 
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             
         </div>
-        <div className='w-full md:w-3/4 justify-center flex flex-col lg:flex-row'>
+        <div className='w-full md:w-3/4 justify-center flex flex-col xl:flex-row'>
             <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl md:py-10 items-center rounded-lg '>
               <Link href={"/tornadotown"}>
                 <Image alt="Abducted Monkeys Team" src ={tornadoThum} className="h-fit rounded-2xl  inline-flex justify-center hover:animate-spin"/> 

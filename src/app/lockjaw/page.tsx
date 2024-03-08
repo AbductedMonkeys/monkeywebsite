@@ -43,9 +43,9 @@ const Lockjaw = () => {
         </div>
         {/* <div className="flex items-center justify-center h-96 bg-local bg-center bg-cover" style={{backgroundImage : `url(${lockjawLogoTrans.src})`}}> </div> */}
         {/* */}
-        <div className="bg-lGray text-white lg:py-20 items-center flex flex-col ">
-        <h1 className="font-bold text-center text-5xl lg:text-8xl mt-20 md:my-10">Lockjaw</h1>
-            <div className='w-full md:w-3/4 justify-center flex flex-col lg:flex-row'>
+        <div className="bg-lGray text-white md:py-20 items-center flex flex-col ">
+        <h1 className="font-bold text-center text-5xl lg:text-8xl mt-20 lg:my-10">Lockjaw</h1>
+            <div className='w-full lg:w-3/4 justify-center flex flex-col xl:flex-row'>
                 <div className='h-auto w-full pb-6 px-6 text-lg md:text-3xl py-10 text-center items-center'>
                     <iframe className='aspect-video w-full h-auto self-center' src="https://www.youtube.com/embed/8W2iGwhywOQ" title="Lockjaw: Robo-Royale Gameplay Trailer - New Demo Out Now!"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     <div className='inline-flex justify-between md:justify-center content-center w-full p-5'>
