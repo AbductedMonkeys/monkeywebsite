@@ -178,7 +178,7 @@ export const TeamPeople = [
         name: 'Shaina Lee',
         img: shainaImg,
         imgalt:"Shaina Lee image",
-        title: "Sound Designer / UI Artist",
+        title: "Concept Artist",
         links:[{
             artstation: "https://www.artstation.com/tayowna",
             linkedin:"https://www.linkedin.com/in/tayowna",
