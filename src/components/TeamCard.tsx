@@ -48,9 +48,9 @@ const renderGameIcons = (games) => {
     return Object.keys(games).map((game, index) => {
         switch (game) {
             case 'tornado':
-                return games[game] ? <Image src={tornadoImg} alt={'tornado icon'} key={`${game}-${index}`} className='flex h-6 lg:h-8 w-auto m-2' loading={index < 4 ? "eager" : "lazy"} /> : null;
+                return games[game] ? <Image src={tornadoImg} alt={'tornado icon'} key={`${game}-${index}`} className='flex h-6 lg:h-8 w-auto m-2' loading={index < 6 ? "eager" : "lazy"} /> : null;
             case 'lockjaw':
-                return games[game] ? <Image src={lockjawImg} alt={'lockjaw icon'} key={`${game}-${index}`} className='flex h-6 lg:h-8 w-auto m-2' loading={index < 4 ? "eager" : "lazy"} /> : null;
+                return games[game] ? <Image src={lockjawImg} alt={'lockjaw icon'} key={`${game}-${index}`} className='flex h-6 lg:h-8 w-auto m-2' loading={index < 6 ? "eager" : "lazy"} /> : null;
             default:
                 return null;
         }
@@ -66,7 +66,7 @@ const TeamCard = ({ person }) => {
                         className="shadow rounded-full max-w-full h-auto align-middle border-none"
                         src={person.img}
                         alt={person.imgalt}
-                        loading={person.id < 4 ? "eager" : "lazy"} 
+                        loading={person.id < 6 ? "eager" : "lazy"} 
                     />
                 </div>
                 <div className="flex flex-col p-2 lg:p-4 w-full lg:w-2/3">
