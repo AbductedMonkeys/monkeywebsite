@@ -13,7 +13,7 @@ function Footer() {
   return (
   <>
   <footer className={`pb-2 w-full ${pathname == '/lockjaw' ? "bg-lGray" : "bg-grimace"}`} >
-  <div className="inline-flex flex-wrap mx-auto w-full justify-center pt-9">
+  <div className={`inline-flex flex-wrap mx-auto w-full justify-center pt-9 border-t-2 ${pathname == '/lockjaw' ? "border-lOrange" : "border-mPink"}`}>
     <div className="mb-8">
       <Link target='_blank' href="https://www.tiktok.com/@abductedmonkeys" className={`flex mx-8 md:mx-5 text-4xl  ${pathname == '/lockjaw' ? "text-lOrange hover:text-white" : "text-mPink hover:text-mTan"}`}>
         <FaTiktok/>

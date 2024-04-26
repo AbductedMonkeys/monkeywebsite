@@ -31,6 +31,11 @@ const Navbar = () => {
       link: "team",
       text: "Team",
     },
+    {
+      id: 5,
+      link: "press",
+      text: "Press",
+    },
   ];
   const router = useRouter();
   const pathname = usePathname();

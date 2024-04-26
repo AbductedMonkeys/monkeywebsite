@@ -9,7 +9,7 @@ export default function About() {
   return (
     <> 
         <div  className="text-mPink bg-grimace rounded-lg text-lg md:text-3xl md:py-10 px-4 text-center items-center flex flex-col">
-          <div className='mt-20 bg-grimace rounded-md w-1/2 h-fit'>
+          <div className='lg:border-mPink lg:border-b-2 w-full lg:w-3/4 mt-20'>
             <h1 className="py-5 font-bold text-center text-5xl lg:text-8xl">Team</h1>
           </div>
           <div className='w-full md:w-3/4'>

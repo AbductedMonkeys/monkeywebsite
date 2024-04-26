@@ -29,16 +29,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    
     <html>
-      <head>
+    <head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
-      <body className={`${inter.className}`}>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    </head>
+    <body className={`${inter.className} flex flex-col min-h-screen`}>
+      <Navbar />
+      <main className="flex-grow">{children}</main>
+      <Footer />
+    </body>
+  </html>
   );
 }
