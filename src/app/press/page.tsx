@@ -14,7 +14,7 @@ export default function Press() {
           <div className="w-full md:w-1/2 px-6 mb-6 md:mb-0 flex justify-center">
               <div className="w-full max-w-xs md:max-w-lg px-6 py-10 rounded-xl">
                 <p className="text-lg md:text-3xl text-center mb-6">Want to cover our games? Check out our press kits for media and info, or send us an email.</p>
-                <a href="mailto:contact@abductedmonkeys.com" target="_blank" rel="noopener noreferrer" className="block w-fit mx-auto outline outline-mPink outline-2 hover:bg-mPink hover:text-mTan font-bold text-center py-3 px-6 rounded-lg transition duration-300">Press Kit</a>
+                <a href="mailto:contact@abductedmonkeys.com" target="_blank" rel="noopener noreferrer" className="block w-fit mx-auto outline outline-mPink outline-2 hover:bg-mPink hover:text-mTan font-bold text-center py-3 px-6 rounded-lg transition duration-300">Email Us!</a>
               </div>
             </div>
           <div className="w-full lg:w-3/4 my-10 justify-center flex flex-wrap">
