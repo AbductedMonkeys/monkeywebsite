@@ -48,6 +48,7 @@ const Lockjaw = () => {
             <h1 className="font-bold text-center text-5xl lg:text-8xl mt-20 lg:my-10 ">LOCKJAW</h1>
         </div>
         <div className='w-full lg:w-3/4 justify-center flex flex-col xl:flex-row'>
+
                 <div className='h-fit w-full px-6 text-lg md:text-3xl pt-10 text-center items-center'>
                     <iframe className='aspect-video w-full h-full self-center' src="https://www.youtube.com/embed/8W2iGwhywOQ" title="Lockjaw: Robo-Royale Gameplay Trailer - New Demo Out Now!"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     <div className='inline-flex justify-between md:justify-center content-center w-full my-2 lg:m-5'>
@@ -65,12 +66,12 @@ const Lockjaw = () => {
                         </div>     
                     </div>  
                 </div>
-                <div className='h-auto w-full px-6 text-lg md:text-3xl 2xl:text-5xl self-center items-center text-center'>
+                <div className='h-auto w-full px-6 text-lg md:text-3xl 3xl:text-5xl self-center items-center text-center'>
                     <p className="py-5 px-5 text-left">Lockjaw is a multiplayer party brawler game where robots use interchangeable arm, leg, and head parts to fight to win a Robo-Royale! </p>
                     <p className="py-0 2xl:py-5 px-5 text-left opacity-0 2xl:opacity-100 h-0 2xl:h-fit">Robots start each match with a blank slate—scramble for arm, leg, and head parts to amplify your capabilities and gain the upper hand. Robots can hold up to 4 parts at a time, so get greedy!</p>
                 </div>
             </div>
-            <div className='h-auto w-full lg:w-3/4 px-6 text-lg md:text-3xl 2xl:text-5xl items-center text-center'>
+            <div className='h-auto w-full lg:w-3/4 px-6 text-lg md:text-3xl 3xl:text-5xl items-center text-center'>
                     <p className="py-5 px-5 text-left 2xl:opacity-0 2xl:h-0">Robots start each match with a blank slate—scramble for arm, leg, and head parts to amplify your capabilities and gain the upper hand. Robots can hold up to 4 parts at a time, so get greedy!</p>
                     <p className="py-5 px-5 text-left">Adapt to the random assortment of parts in each battle. Grapple walls, dodge balls, and lock jaws! Every match is different, so be sure to change up your strategy!</p>
                     <p className="py-5 px-5 text-left">Play Lockjaw with up to four players in local multiplayer or over Steam Remote Play Together!</p>
