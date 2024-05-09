@@ -2,6 +2,7 @@
 import monkeyTrans from './Monkey_trans.png';
 import {AiFillYoutube, AiFillLinkedin} from 'react-icons/ai';
 import {FaSquareXTwitter} from 'react-icons/fa6';
+import { FaInstagram } from "react-icons/fa6";
 import {FaTiktok} from 'react-icons/fa'
 import { MdMail } from "react-icons/md";
 import Link from 'next/link';
@@ -22,6 +23,11 @@ function Footer() {
     <div className="mb-8 ">
       <Link target='_blank' href="https://twitter.com/Abduct3dMonkeys" className={`flex mx-8 md:mx-5 text-4xl  ${pathname == '/lockjaw' ? "text-lOrange hover:text-white" : "text-mPink hover:text-mTan"}`}>
         <FaSquareXTwitter/>
+      </Link>
+    </div>
+    <div className="mb-8  ">
+      <Link target='_blank' href='https://www.instagram.com/abductedmonkeys/' className={`flex mx-8 md:mx-5 text-4xl ${pathname == '/lockjaw' ? "text-lOrange hover:text-white" : "text-mPink hover:text-mTan"}`} >
+        <FaInstagram />
       </Link>
     </div>
     <div className="mb-8  ">
