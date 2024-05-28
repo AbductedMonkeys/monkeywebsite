@@ -164,7 +164,7 @@ export const TeamPeople = [
         imgalt:"Mya Timmermann image",
         title: "Sound Designer / UI Artist",
         links:[{
-            personal: "https://myaflac.bandcamp.com/",
+            personal: "https://lyra1337.bandcamp.com/",
             artstation: "https://www.artstation.com/btimmermann",
             linkedin:"https://www.linkedin.com/in/mya-timmermann/",
         }],
