@@ -31,13 +31,13 @@ export default function Home() {
                 <Image alt="Abducted Monkeys Team" src ={lockjawThum} className="rounded-2xl inline-flex justify-center hover:animate-bounce"/> 
               </Link> 
             </div>
-            <div className='h-auto w-full 2xl:w-auto pb-6 px-6 text-xl md:text-3xl 3xl:text-5xl 2xl:self-center py-10'>
+            <div className='h-auto w-full pb-6 px-6 text-xl md:text-3xl 3xl:text-5xl 2xl:self-center py-10'>
               <p><Link className='underline hover:text-mTan' href={'/lockjaw'}>Lockjaw</Link> is a bombastic robot party brawler where you interchange a variety of wacky parts to knock your opponents off the stage to win a robo-royale!</p>
             </div>
             
         </div>
         <div className='w-full md:w-3/4 justify-center flex flex-col xl:flex-row'>
-            <div className='h-auto w-full 2xl:w-auto pb-6 px-6 text-lg md:w-2/3 md:text-3xl md:py-10 items-center rounded-lg '>
+            <div className='h-auto w-full pb-6 px-6 text-lg md:w-2/3 md:text-3xl md:py-10 items-center rounded-lg '>
               <Link href={"/tornadotown"}>
                 <Image alt="Abducted Monkeys Team" src ={tornadoThum} className="h-fit rounded-2xl inline-flex justify-center hover:animate-spin"/> 
               </Link>
