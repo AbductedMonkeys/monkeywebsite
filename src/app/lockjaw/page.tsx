@@ -50,7 +50,7 @@ const Lockjaw = () => {
         <div className='w-full lg:w-3/4 justify-center flex flex-col xl:flex-row'>
 
                 <div className='h-fit w-full px-6 text-lg md:text-3xl pt-10 text-center items-center'>
-                    <iframe className='aspect-video w-full h-full self-center' src="https://www.youtube.com/embed/8W2iGwhywOQ" title="Lockjaw: Robo-Royale Gameplay Trailer - New Demo Out Now!"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                    <iframe className='aspect-video w-full h-full self-center' src="https://www.youtube.com/embed/rsfXO3aAR_8" title="Lockjaw: Robo-Royale Gameplay Trailer - New Demo Out Now!"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     <div className='inline-flex justify-between md:justify-center content-center w-full my-2 lg:m-5'>
                         <div className='flex center m-2 px-6 md:mx-20 text-lOrange'>
                             <Link href={"https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"} target='_blank'>
