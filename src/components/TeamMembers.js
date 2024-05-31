@@ -134,7 +134,7 @@ export const TeamPeople = [
         imgalt:"Brian Glogower image",
         title: "Level Designer / Marketer",
         links:[{
-            personal: "https://brianglogower.wordpress.com/",
+            artstation: "https://www.artstation.com/bglogower24",
             linkedin:"https://www.linkedin.com/in/brian-glogower/",
         }],
         games:[{
