@@ -3,9 +3,10 @@ import monkeyTrans from '../../public/monkeytrans.png';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 import Image from 'next/image';
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { usePathname, useRouter } from "next/navigation";
+import Banner from './Banner';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -40,9 +41,22 @@ const Navbar = () => {
   const router = useRouter();
   const pathname = usePathname();
   console.log(pathname);
+  const [showBanner, setShowBanner] = useState(false);
+
+    useEffect(() => {
+        // Example to show the banner after 1 second
+        setTimeout(() => setShowBanner(true), 300);
+    }, []);
   return (
-    
-    <div className={`flex justify-between items-center w-full h-20 px-4  ${pathname == '/lockjaw' ? "bg-lGray text-lOrange" : "bg-grimace text-mPink"} fixed nav`}>
+    <>
+    <Banner
+                buttonText="Support Our Kickstarter for Lockjaw!"
+                buttonLink="https://www.kickstarter.com/projects/abductedmonkeys/lockjaw-robo-royale"
+                //height="auto"
+                backgroundColor="#2bde73"
+                buttonBackgroundColor="#2bde73"
+            />
+            <div className={`flex justify-between items-center w-full h-20 px-4  ${pathname == '/lockjaw' ? "bg-lGray text-lOrange" : "bg-grimace text-mPink"} fixed nav`}>
       <div >
           <Link
             className="link-underline link-underline-black"
@@ -90,6 +104,8 @@ const Navbar = () => {
         </ul>
       )}
     </div>
+    </>
+    
   );
 };
 
