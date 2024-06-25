@@ -3,7 +3,27 @@ import Image from "next/image";
 import Link from 'next/link';
 import lockjawThum from '/public/lockjaw/lockjawopengraphthumbnail.png'
 import tornadoThum from '/public/tornadotown/tornadotownopengraphthumbnail.png'
+import { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.abductedmonkeys.com'),
+  title: "Abducted Monkeys",
+  description: "Video game studio developing Trouble in Tornado Town & Lockjaw: Robo-Royale",
+  keywords: ['Abuducted', 'Monkeys', 'Abducted Monkeys', 'Abducted Monkeys LLC', 'Tornado', 'Trouble', 'Trouble in Torndo Town', 'Tornado Town', 'Lockjaw', 'Robo-Royale', 'Lockjaw: Robo-Royale'],
+  openGraph:{
+    type: "website",
+    url: "https://www.abductedmonkeys.com",
+    title: "Abducted Monkeys",
+    description: "Video game studio developing Trouble in Tornado Town & Lockjaw: Robo-Royale",
+    siteName: "Abducted Monkeys",
+    images: [{
+      url: "https://www.abductedmonkeys.com/monkeythin.png",
+    }]
+  },
+  alternates: {
+    canonical: '/press',
+  }
+};
 export default function Press() {
     return (
       <div className="min-h-screen flex flex-col">

@@ -27,7 +27,10 @@ export const metadata: Metadata = {
         images: [{
           url: "https://www.abductedmonkeys.com/lockjaw/lockjawopengraphthumbnail.png",
         }]
-    }
+    },
+  alternates: {
+    canonical: '/lockjaw',
+  }
   };
 
 const Lockjaw = () => {

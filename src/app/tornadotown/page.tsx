@@ -23,6 +23,8 @@ export const metadata: Metadata = {
       images: [{
         url: "https://www.abductedmonkeys.com/tornadotown/tornadotownopengraphthumbnail.png",
       }]
+  },alternates: {
+    canonical: '/tornadotown',
   }
 };
 

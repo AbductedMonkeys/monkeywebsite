@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     images: [{
       url: "https://www.abductedmonkeys.com/monkeythin.png",
     }]
+  },
+  alternates: {
+    canonical: './',
   }
 };
 

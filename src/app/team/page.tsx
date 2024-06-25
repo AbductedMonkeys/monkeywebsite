@@ -4,7 +4,26 @@ import Image from "next/image";
 import threeMonkeys from "/public/threemonkeys.jpg"
 import {TeamPeople} from "../../components/TeamMembers";
 import TeamCard from '@/components/TeamCard';
-
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.abductedmonkeys.com'),
+  title: "Abducted Monkeys",
+  description: "Video game studio developing Trouble in Tornado Town & Lockjaw: Robo-Royale",
+  keywords: ['Abuducted', 'Monkeys', 'Abducted Monkeys', 'Abducted Monkeys LLC', 'Tornado', 'Trouble', 'Trouble in Torndo Town', 'Tornado Town', 'Lockjaw', 'Robo-Royale', 'Lockjaw: Robo-Royale'],
+  openGraph:{
+    type: "website",
+    url: "https://www.abductedmonkeys.com",
+    title: "Abducted Monkeys",
+    description: "Video game studio developing Trouble in Tornado Town & Lockjaw: Robo-Royale",
+    siteName: "Abducted Monkeys",
+    images: [{
+      url: "https://www.abductedmonkeys.com/monkeythin.png",
+    }]
+  },
+  alternates: {
+    canonical: '/team',
+  }
+};
 export default function About() {
   return (
     <> 
