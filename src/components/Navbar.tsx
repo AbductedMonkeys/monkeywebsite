@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
     <>
     <Banner
-                buttonText="Support Our Kickstarter for Lockjaw!"
+                buttonText="Lockjaw: Robo-Royale is fully funded from Kickstarter!"
                 buttonLink="https://www.kickstarter.com/projects/abductedmonkeys/lockjaw-robo-royale"
                 //height="auto"
                 backgroundColor="#2bde73"
