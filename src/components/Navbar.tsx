@@ -50,11 +50,11 @@ const Navbar = () => {
   return (
     <>
     <Banner
-                buttonText="Lockjaw is fully funded from Kickstarter!"
-                buttonLink="https://www.kickstarter.com/projects/abductedmonkeys/lockjaw-robo-royale"
+                buttonText="Lockjaw: Robo-Royale releases Oct 21st! Wishlist now!"
+                buttonLink="https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"
                 //height="auto"
-                backgroundColor="#2bde73"
-                buttonBackgroundColor="#2bde73"
+                backgroundColor="lOrange"
+                buttonBackgroundColor="lOrange"
             />
             <div className={`flex justify-between items-center w-full h-20 px-4  ${pathname == '/lockjaw' ? "bg-lGray text-lOrange" : "bg-grimace text-mPink"} fixed nav`}>
       <div >
