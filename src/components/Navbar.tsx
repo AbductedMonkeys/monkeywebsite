@@ -53,8 +53,8 @@ const Navbar = () => {
                 buttonText="Lockjaw: Robo-Royale releases Oct 21st! Wishlist now!"
                 buttonLink="https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"
                 //height="auto"
-                backgroundColor="lOrange"
-                buttonBackgroundColor="lOrange"
+                backgroundColor="#fda343"
+                buttonBackgroundColor="#fda343"
             />
             <div className={`flex justify-between items-center w-full h-20 px-4  ${pathname == '/lockjaw' ? "bg-lGray text-lOrange" : "bg-grimace text-mPink"} fixed nav`}>
       <div >
