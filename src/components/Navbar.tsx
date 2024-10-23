@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
     <>
     <Banner
-                buttonText="Lockjaw: Robo-Royale releases Oct 21st! Wishlist now!"
+                buttonText="Lockjaw: Robo-Royale is out now on Steam!"
                 buttonLink="https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"
                 //height="auto"
                 backgroundColor="#fda343"
