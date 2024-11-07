@@ -21,6 +21,7 @@ const config: Config = {
         'mLink' : '#ffb2b7',
         'lGray' : '#151515',
         'lOrange' : '#fda343',
+        'lTan' : '#eafce4'
       },
     },
   },

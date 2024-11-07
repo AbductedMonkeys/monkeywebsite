@@ -25,7 +25,7 @@ const Navbar = () => {
     {
       id: 3,
       link: "lockjaw",
-      text: "Lockjaw",
+      text: "Lockjaw: Robo-Royale",
     },
     {
       id: 4,
