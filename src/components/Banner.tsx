@@ -24,7 +24,7 @@ export default function Banner({
     }, [displayBanner]);
 
     useEffect(() => {
-        // Example to show the banner after 1 second
+        // Show the banner after 1 second
         setTimeout(() => setDisplayBanner(true), 1000);
     }, []);
 
@@ -38,10 +38,13 @@ export default function Banner({
                 height: 'var(--banner-height, 0px)',
             }}
         >
-            <div className="flex flex-row justify-center items-baseline h-fit">
-                <a href={buttonLink} className="flex items-center h-full w-full justify-center flex-col md:flex-row font-bold text-md md:text-3xl">
+            <div className="flex items-center justify-center h-fit pr-8"> {/* Added padding-right here */}
+                <a
+                    href={buttonLink}
+                    className="flex flex-shrink items-center h-full align-middle flex-col md:flex-row font-bold text-md md:text-3xl"
+                >
                     <p
-                        className="m-2 "
+                        className="m-2 text-center"
                         style={{
                             backgroundColor: buttonBackgroundColor || "transparent",
                         }}
@@ -50,7 +53,7 @@ export default function Banner({
                     </p>
                 </a>
                 <div
-                    className="cursor-pointer my-2 text-center h-fit absolute top-0 right-0 px-2 text-md md:text-3xl font-bold flex"
+                    className="cursor-pointer text-center w-auto h-full items-center mx-2 absolute right-4 top-1/2 transform -translate-y-1/2 text-inherit md:text-3xl font-bold flex" // Updated positioning
                     onClick={() => setDisplayBanner(false)}
                 >
                     X

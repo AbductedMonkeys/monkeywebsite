@@ -23,7 +23,8 @@ export const metadata: Metadata = {
       images: [{
         url: "https://www.abductedmonkeys.com/tornadotown/tornadotownopengraphthumbnail.png",
       }]
-  },alternates: {
+  },
+  alternates: {
     canonical: '/tornadotown',
   }
 };
@@ -58,8 +59,8 @@ export default function TroubleinTornadoTown() {
                 </div>  
             </div>
             <div className='h-auto xl:w-1/2 w-full pb-6 px-6 text-lg md:text-4xl 3xl:text-5xl items-center self-center text-center'>
-                <p className="py-5 px-5 text-left">Play as a tornado and try to destroy as much of of the landscape as possible, as quickly as possible!</p>
-                <p className="2xl:py-5 px-5 text-left hidden 2xl:block">Welcome to Tornado Town, a place so lovely you&apos;ll be blown away! Trouble in Tornado town is a physics-driven cartoon destruction game where you grow into the most powerful tornado ever seen!</p>
+            <p className="2xl:py-5 px-5 text-left hidden 2xl:block">Welcome to Tornado Town, a place so lovely you&apos;ll be blown away! Trouble in Tornado town is a physics-driven cartoon destruction game where you grow into the most powerful tornado ever seen!</p>
+                <p className="py-5 px-5 text-left">Play as a tornado and try to destroy as much of of the landscape as possible, as quickly as possible!</p> 
             </div>
             
         </div> 

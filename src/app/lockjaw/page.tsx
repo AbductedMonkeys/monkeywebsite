@@ -46,8 +46,8 @@ const Lockjaw = () => {
         </div>
         {/* <div className="flex items-center justify-center h-96 bg-local bg-center bg-cover" style={{backgroundImage : `url(${lockjawLogoTrans.src})`}}> </div> */}
         {/* */}
-        <div className="bg-lGray text-lTan md:py-20 items-center flex flex-col">
-        <div className='lg:border-lTan lg:border-b-2 w-full lg:w-3/4'>
+        <div className="bg-lGray text-white md:py-20 items-center flex flex-col">
+        <div className='lg:border-white lg:border-b-2 w-full lg:w-3/4'>
             <h1 className="font-bold text-center text-5xl lg:text-8xl mt-20 lg:my-0 ">LOCKJAW: ROBO-ROYALE</h1>
         </div>
         <div className='w-full lg:w-3/4 justify-center flex flex-col xl:flex-row'>
@@ -57,12 +57,12 @@ const Lockjaw = () => {
                     <div className='inline-flex justify-between md:justify-center content-center w-full my-2 lg:m-5'>
                         <div className='flex center m-2 px-6 md:mx-20 text-lOrange'>
                             <Link href={"https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"} target='_blank'>
-                                <FaSteam className='text-5xl hover:text-lTan' />
+                                <FaSteam className='text-5xl hover:text-white' />
                             </Link>
                         </div>
                         <div className='flex outline outline-lOrange m-2 px-6 md:mx-20 group hover:bg-lOrange rounded-xl'>
                             <Link href={"https://drive.google.com/drive/folders/1U8Fh48_GMZZqPVF2Gwe3rIJsbEdI00e8?usp=sharing"} target='_blank'>
-                                <div className='p-3 text-sm md:text-base text-lOrange group-hover:text-lTan'>
+                                <div className='p-3 text-sm md:text-base text-lOrange group-hover:text-white'>
                                     Press Kit
                                 </div>
                             </Link>

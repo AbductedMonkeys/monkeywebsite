@@ -52,7 +52,6 @@ const Navbar = () => {
     <Banner
                 buttonText="Lockjaw: Robo-Royale is out now on Steam!"
                 buttonLink="https://store.steampowered.com/app/2782270/Lockjaw_RoboRoyale/"
-                //height="auto"
                 backgroundColor="#fda343"
                 buttonBackgroundColor="#fda343"
             />
@@ -65,13 +64,13 @@ const Navbar = () => {
           >
            <Image 
            alt = "Abducted Monkeys Logo"
-           className="cursor-pointer flex items-center object-contain w-fit h-14 md:h-20"
+           className="cursor-pointer flex items-center object-contain w-fit h-14 lg:h-20"
            src = {monkeyTrans}
            />
           </Link>
       </div>
 
-      <ul className="hidden md:flex">
+      <ul className="hidden lg:flex">
         {links.map(({ id, link, text }) => (
           <li
             key={id}
@@ -84,7 +83,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className={`cursor-pointer pr-4 z-10 ${pathname == '/lockjaw' ? "text-lOrange" : "text-mPink"} md:hidden`}
+        className={`cursor-pointer pr-4 z-10 ${pathname == '/lockjaw' ? "text-lOrange" : "text-mPink"} lg:hidden`}
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
