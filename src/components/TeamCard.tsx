@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGlobe, FaLinkedin, FaGithub, FaArtstation } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import tornadoImg from "../../public/gameicons/tornado.png";
-import lockjawImg from "../../public/gameicons/lockjaw.png";
+import tornadoImg from "../../public/gameicons/tornado.webp";
+import lockjawImg from "../../public/gameicons/lockjaw.webp";
 
 const renderTeamLinks = (links) => {
     return Object.keys(links).map((link, index) => {
